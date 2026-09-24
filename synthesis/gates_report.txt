@@ -1,0 +1,1324 @@
+
+50. Printing statistics.
+
+=== BAUD_GEN ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       60 wires
+       87 wire bits
+       12 public wires
+       25 public wire bits
+        7 ports
+       11 port bits
+       68 cells
+       10   $_AND_
+       18   $_MUX_
+        3   $_NAND_
+        1   $_NOR_
+       13   $_NOT_
+        5   $_XNOR_
+        7   $_XOR_
+       11   DFCNQD1HVT
+
+=== EDGE_COUNTER_16 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       39 wires
+       45 wire bits
+        9 public wires
+       12 public wire bits
+        5 ports
+        5 port bits
+       41 cells
+        2   $_ANDNOT_
+        6   $_AND_
+        6   $_MUX_
+        2   $_NAND_
+        2   $_NOR_
+       10   $_NOT_
+        4   $_OR_
+        1   $_XNOR_
+        8   DFCNQD1HVT
+
+=== PHASE_POLARITY ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       11 wires
+       11 wire bits
+        9 public wires
+        9 public wire bits
+        9 ports
+        9 port bits
+        5 cells
+        1   $_MUX_
+        1   $_ORNOT_
+        2   $_XNOR_
+        1   $_XOR_
+
+=== USR ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       90 wires
+      112 wire bits
+       18 public wires
+       40 public wire bits
+       14 ports
+       29 port bits
+       85 cells
+        5   $_ANDNOT_
+       12   $_AND_
+       10   $_MUX_
+       27   $_NAND_
+       10   $_NOT_
+        8   $_ORNOT_
+        2   $_OR_
+        8   DFCNQD1HVT
+        1   DFSNQD1HVT
+        2   EDFQD1HVT
+
+=== spi ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      363 wires
+      597 wire bits
+       39 public wires
+      266 public wire bits
+       20 ports
+      113 port bits
+      475 cells
+        1   $_DLATCH_N_
+        1   AN2D0HVT
+        4   AN3D0HVT
+        3   AN4D0HVT
+        1   AO211D0HVT
+        1   AO21D0HVT
+        1   AO22D0HVT
+        2   AOI211D0HVT
+        8   AOI21D0HVT
+        2   AOI221D0HVT
+       32   AOI222D0HVT
+        1   AOI22D0HVT
+        3   AOI31D0HVT
+      119   CKND0HVT
+       19   CKND2D0HVT
+      110   DFCNQD1HVT
+        4   DFSNQD1HVT
+        1   IAO21D0HVT
+        4   IND2D0HVT
+        1   IND4D0HVT
+        2   INR2D0HVT
+        3   INR3D0HVT
+        1   IOA21D0HVT
+      105   MUX2D0HVT
+        1   MUX2ND0HVT
+        2   ND3D0HVT
+        2   ND4D0HVT
+       24   NR2D0HVT
+        3   NR3D0HVT
+        1   OA21D0HVT
+        1   OAI211D0HVT
+        4   OAI21D0HVT
+        4   OAI31D0HVT
+        2   OR3D0HVT
+        2   OR4D0HVT
+        5 submodules
+        1   ADD_DECO
+        1   BAUD_GEN
+        1   EDGE_COUNTER_16
+        1   PHASE_POLARITY
+        1   USR
+
+=== $paramod\handshake_bridge\WIDTH=s32'00000000000000000000000001000011 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      160 wires
+      358 wire bits
+       17 public wires
+      215 public wire bits
+        9 ports
+      141 port bits
+      286 cells
+        1   $_ANDNOT_
+      138   $_MUX_
+        2   $_NOT_
+        1   $_XNOR_
+        1   $_XOR_
+      143   DFCNQD1HVT
+
+=== $paramod\handshake_bridge\WIDTH=s32'00000000000000000000000001000000 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      154 wires
+      343 wire bits
+       17 public wires
+      206 public wire bits
+        9 ports
+      135 port bits
+      274 cells
+        1   $_ANDNOT_
+      132   $_MUX_
+        2   $_NOT_
+        1   $_XNOR_
+        1   $_XOR_
+      137   DFCNQD1HVT
+
+=== $paramod\handshake_bridge\WIDTH=s32'00000000000000000000000010000000 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      282 wires
+      663 wire bits
+       17 public wires
+      398 public wire bits
+        9 ports
+      263 port bits
+      530 cells
+        1   $_ANDNOT_
+      260   $_MUX_
+        2   $_NOT_
+        1   $_XNOR_
+        1   $_XOR_
+      265   DFCNQD1HVT
+
+=== $paramod\handshake_bridge\WIDTH=s32'00000000000000000000000001000001 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      156 wires
+      348 wire bits
+       17 public wires
+      209 public wire bits
+        9 ports
+      137 port bits
+      278 cells
+        1   $_ANDNOT_
+      134   $_MUX_
+        2   $_NOT_
+        1   $_XNOR_
+        1   $_XOR_
+      139   DFCNQD1HVT
+
+=== $paramod\handshake_bridge\WIDTH=s32'00000000000000000000000000100000 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       90 wires
+      183 wire bits
+       17 public wires
+      110 public wire bits
+        9 ports
+       71 port bits
+      146 cells
+        1   $_ANDNOT_
+       68   $_MUX_
+        2   $_NOT_
+        1   $_XNOR_
+        1   $_XOR_
+       73   DFCNQD1HVT
+
+=== soc_top ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      121 wires
+     1424 wire bits
+      118 public wires
+     1421 public wire bits
+       53 ports
+      608 port bits
+        3 cells
+        3   CKND0HVT
+       15 submodules
+        1   address_decoder
+        1   apb
+        2   apb_cdc_bridge
+        1   data_mem
+        1   derive_clk_gpio
+        1   derive_clk_spi
+        1   gpio
+        1   instr_mem
+        1   interrupt_arbiter
+        3   reset_sync
+        1   riscv_top
+        1   spi
+
+=== riscv_top ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      231 wires
+     3712 wire bits
+      215 public wires
+     3696 public wire bits
+       51 ports
+      770 port bits
+       53 cells
+        5   AO21D0HVT
+       11   CKND0HVT
+        5   DFCNQD1HVT
+       32   MUX4D0HVT
+       42 submodules
+        4   $paramod\handshake_bridge\WIDTH=s32'00000000000000000000000000100000
+        2   $paramod\handshake_bridge\WIDTH=s32'00000000000000000000000001000000
+        2   $paramod\handshake_bridge\WIDTH=s32'00000000000000000000000001000011
+        2   $paramod\handshake_bridge\WIDTH=s32'00000000000000000000000010000000
+        1   CSR
+        1   FP_Adder
+        1   FP_Mult
+        1   M1
+        1   M2
+        1   M3
+        2   M4
+        1   M5
+        1   M6
+        1   M7
+        1   Multiplier
+        1   PC
+        1   alu
+        1   clk_div_fft
+        1   clk_fp_divider
+        1   controller
+        1   derive_clk_mu1_div
+        1   divider
+        1   fft_top
+        1   hazard
+        1   mux8_1
+        1   pipeline_reg1
+        1   pipeline_reg2
+        1   pipeline_reg3
+        1   register_file
+        6   reset_sync
+
+=== register_file ===
+
+        +----------Local Count, excluding submodules.
+        | 
+     7454 wires
+     8621 wire bits
+       45 public wires
+     1212 public wire bits
+       13 ports
+      188 port bits
+     8529 cells
+      307   $_ANDNOT_
+      773   $_AND_
+     3665   $_MUX_
+     1623   $_NAND_
+      218   $_NOR_
+        1   $_NOT_
+      426   $_ORNOT_
+      524   $_OR_
+      992   EDFQD1HVT
+
+=== pipeline_reg3 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      138 wires
+      262 wire bits
+        8 public wires
+      132 public wire bits
+        8 ports
+      132 port bits
+      194 cells
+      128   $_MUX_
+        2   $_NOR_
+       64   DFQD1HVT
+
+=== pipeline_reg2 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      279 wires
+      527 wire bits
+       16 public wires
+      264 public wire bits
+       16 ports
+      264 port bits
+      393 cells
+      260   $_MUX_
+        3   $_NOR_
+      130   DFQD1HVT
+
+=== pipeline_reg1 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      498 wires
+     1096 wire bits
+       25 public wires
+      623 public wire bits
+       25 ports
+      623 port bits
+      741 cells
+        1   $_ANDNOT_
+      472   $_MUX_
+      236   DFQD1HVT
+       32   EDFQD1HVT
+
+=== mux8_1 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      339 wires
+      589 wire bits
+        8 public wires
+      227 public wire bits
+        8 ports
+      227 port bits
+      394 cells
+        4   $_ANDNOT_
+      132   $_AND_
+       32   $_DLATCH_N_
+        1   $_MUX_
+      224   $_NAND_
+        1   $_NOR_
+
+=== interrupt_arbiter ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       24 wires
+       24 wire bits
+       11 public wires
+       11 public wire bits
+       10 ports
+       10 port bits
+       17 cells
+        1   $_ANDNOT_
+        2   $_AND_
+        5   $_MUX_
+        1   $_NAND_
+        2   $_NOR_
+        1   $_ORNOT_
+        1   $_OR_
+        4   DFQD1HVT
+
+=== instr_mem ===
+
+        +----------Local Count, excluding submodules.
+        | 
+     2466 wires
+     3640 wire bits
+       41 public wires
+     1215 public wire bits
+        7 ports
+      131 port bits
+     3481 cells
+       80   $_ANDNOT_
+      395   $_AND_
+      770   $_MUX_
+      502   $_NAND_
+      140   $_NOR_
+      316   $_ORNOT_
+      254   $_OR_
+     1024   EDFQD1HVT
+
+=== ADD_DECO ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       11 wires
+       30 wire bits
+        3 public wires
+       22 public wire bits
+        3 ports
+       22 port bits
+       13 cells
+        4   $_ANDNOT_
+        8   $_AND_
+        1   $_NOR_
+
+=== gpio ===
+
+        +----------Local Count, excluding submodules.
+        | 
+     1077 wires
+     1592 wire bits
+       35 public wires
+      548 public wire bits
+       14 ports
+      113 port bits
+     1317 cells
+       67   $_ANDNOT_
+      349   $_AND_
+      189   $_MUX_
+      290   $_NAND_
+       26   $_NOR_
+      177   $_NOT_
+        4   $_ORNOT_
+       38   $_OR_
+      168   DFCNQD1HVT
+        9   DFSNQD1HVT
+
+=== fft8 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+     2239 wires
+     3446 wire bits
+      107 public wires
+      978 public wire bits
+       20 ports
+      260 port bits
+     3084 cells
+       55   $_ANDNOT_
+      117   $_AND_
+      249   $_MUX_
+      882   $_NAND_
+        5   $_NOR_
+        3   $_NOT_
+      307   $_ORNOT_
+       66   $_OR_
+      443   $_XNOR_
+      352   $_XOR_
+      127   DFQD1HVT
+      478   EDFQD1HVT
+
+=== fft_top ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       49 wires
+      543 wire bits
+       30 public wires
+      524 public wire bits
+       12 ports
+      263 port bits
+      154 cells
+        2   AN2D0HVT
+        1   AO21D0HVT
+        1   AO31D0HVT
+       10   CKND0HVT
+        6   DFCNQD1HVT
+        1   DFSNQD1HVT
+      128   EDFQD1HVT
+        2   IND2D0HVT
+        1   MAOI22D0HVT
+        1   NR2D0HVT
+        1   OAI21D0HVT
+        1 submodules
+        1   fft8
+
+=== divider ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      779 wires
+     1069 wire bits
+       20 public wires
+      247 public wire bits
+        9 ports
+      104 port bits
+      966 cells
+        1   AN2D0HVT
+        1   AN4D0HVT
+       47   AO21D0HVT
+       10   AO22D0HVT
+        1   AO31D0HVT
+        6   AOI211D0HVT
+       35   AOI21D0HVT
+        4   AOI221D0HVT
+       15   AOI22D0HVT
+       36   AOI31D0HVT
+        9   AOI32D0HVT
+       57   CKND0HVT
+       48   CKND2D0HVT
+       23   CKXOR2D0HVT
+       37   DFCNQD1HVT
+        1   DFSNQD1HVT
+      138   EDFQD1HVT
+       28   IAO21D0HVT
+       35   IND2D0HVT
+        2   IND3D0HVT
+       22   INR2D0HVT
+        1   INR3D0HVT
+        3   INR4D0HVT
+        3   IOA21D0HVT
+        2   MAOI222D0HVT
+       19   MUX2D0HVT
+        5   MUX2ND0HVT
+        2   ND3D0HVT
+        9   ND4D0HVT
+       33   NR2D0HVT
+        7   NR3D0HVT
+       19   NR4D0HVT
+        1   OA211D0HVT
+       35   OA21D0HVT
+       11   OA31D0HVT
+       41   OAI211D0HVT
+       74   OAI21D0HVT
+        1   OAI221D0HVT
+        2   OAI22D0HVT
+       34   OAI31D0HVT
+        8   OR2D0HVT
+       23   OR4D0HVT
+       57   XNR2D0HVT
+       17   XNR3D0HVT
+        3   XOR3D0HVT
+
+=== derive_clk_spi ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        9 wires
+       11 wire bits
+        4 public wires
+        5 public wire bits
+        3 ports
+        3 port bits
+        9 cells
+        1   $_ANDNOT_
+        1   $_NOR_
+        4   $_NOT_
+        3   DFCNQD1HVT
+
+=== derive_clk_mu1_div ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       18 wires
+       22 wire bits
+        6 public wires
+        8 public wire bits
+        4 ports
+        4 port bits
+       20 cells
+        3   $_ANDNOT_
+        1   $_MUX_
+        2   $_NOR_
+        8   $_NOT_
+        6   DFCNQD1HVT
+
+=== derive_clk_gpio ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        5 wires
+        5 wire bits
+        3 public wires
+        3 public wire bits
+        3 ports
+        3 port bits
+        3 cells
+        2   $_NOT_
+        1   DFCNQD1HVT
+
+=== data_mem ===
+
+        +----------Local Count, excluding submodules.
+        | 
+    27992 wires
+    36002 wire bits
+      263 public wires
+     8273 public wire bits
+        7 ports
+       81 port bits
+    35953 cells
+        9   $_ANDNOT_
+     5852   $_AND_
+     8192   $_MUX_
+    13448   $_NAND_
+        4   $_NOR_
+      256   $_OR_
+     8192   EDFQD1HVT
+
+=== controller ===
+
+        +----------Local Count, excluding submodules.
+        | 
+     1035 wires
+     1429 wire bits
+       80 public wires
+      471 public wire bits
+       76 ports
+      435 port bits
+     1201 cells
+       71   $_ANDNOT_
+      222   $_AND_
+      304   $_MUX_
+      203   $_NAND_
+       76   $_NOR_
+       10   $_NOT_
+       37   $_ORNOT_
+       60   $_OR_
+      154   DFQD1HVT
+       64   EDFQD1HVT
+
+=== clk_fp_divider ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       12 wires
+       15 wire bits
+        5 public wires
+        6 public wire bits
+        4 ports
+        4 port bits
+       11 cells
+        6   $_NOT_
+        1   $_XOR_
+        4   DFCNQD1HVT
+
+=== clk_div_fft ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       10 wires
+       13 wire bits
+        5 public wires
+        6 public wire bits
+        4 ports
+        4 port bits
+        8 cells
+        4   $_NOT_
+        1   $_XOR_
+        3   DFCNQD1HVT
+
+=== apb_cdc_bridge ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      116 wires
+      498 wire bits
+       29 public wires
+      411 public wire bits
+       18 ports
+      204 port bits
+      162 cells
+        6   $_ANDNOT_
+        6   $_AND_
+       67   $_MUX_
+        1   $_NAND_
+        2   $_ORNOT_
+        5   $_OR_
+       73   DFCNQD1HVT
+        2   DFSNQD1HVT
+        2 submodules
+        1   $paramod\handshake_bridge\WIDTH=s32'00000000000000000000000000100000
+        1   $paramod\handshake_bridge\WIDTH=s32'00000000000000000000000001000001
+
+=== apb ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      277 wires
+      496 wire bits
+       18 public wires
+      237 public wire bits
+       17 ports
+      234 port bits
+      363 cells
+        5   $_ANDNOT_
+       10   $_AND_
+      235   $_MUX_
+        1   $_NAND_
+        5   $_NOR_
+        1   $_ORNOT_
+        2   $_OR_
+      104   DFQD1HVT
+
+=== alu_internal ===
+
+        +----------Local Count, excluding submodules.
+        | 
+     1630 wires
+     1824 wire bits
+       12 public wires
+      144 public wire bits
+       11 ports
+      139 port bits
+     1746 cells
+       71   $_ANDNOT_
+      452   $_AND_
+       63   $_DLATCH_NP0_
+        1   $_DLATCH_N_
+      257   $_MUX_
+      593   $_NAND_
+       30   $_NOR_
+        9   $_NOT_
+       70   $_ORNOT_
+       91   $_OR_
+       61   $_XNOR_
+       48   $_XOR_
+
+=== latch ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       69 wires
+      131 wire bits
+        5 public wires
+       67 public wire bits
+        5 ports
+       67 port bits
+       96 cells
+       64   $_MUX_
+       32   DFQD1HVT
+
+=== alu ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       21 wires
+      211 wire bits
+       15 public wires
+      205 public wire bits
+       11 ports
+      139 port bits
+        6 cells
+        2   $_AND_
+        1   $_NAND_
+        1   $_NOR_
+        1   $_NOT_
+        1   $_OR_
+        3 submodules
+        1   alu_internal
+        2   latch
+
+=== address_decoder ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       94 wires
+      373 wire bits
+       15 public wires
+      294 public wire bits
+       15 ports
+      294 port bits
+      225 cells
+      120   $_AND_
+       96   $_NAND_
+        8   $_NOR_
+        1   $_OR_
+
+=== reset_sync ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        4 wires
+        4 wire bits
+        4 public wires
+        4 public wire bits
+        3 ports
+        3 port bits
+        2 cells
+        2   DFCNQD1HVT
+
+=== PC ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       39 wires
+      101 wire bits
+        5 public wires
+       67 public wire bits
+        5 ports
+       67 port bits
+       66 cells
+       32   $_MUX_
+        1   $_NOR_
+        1   $_ORNOT_
+       32   EDFQD1HVT
+
+=== Multiplier ===
+
+        +----------Local Count, excluding submodules.
+        | 
+     1233 wires
+     1555 wire bits
+       17 public wires
+      339 public wire bits
+        9 ports
+      104 port bits
+     1421 cells
+       24   AN2D0HVT
+        1   AN3D0HVT
+        1   AN4D0HVT
+        4   AO211D0HVT
+       12   AO21D0HVT
+       73   AO22D0HVT
+        3   AO31D0HVT
+        6   AO32D0HVT
+        6   AOI211D0HVT
+       30   AOI21D0HVT
+        5   AOI221D0HVT
+        2   AOI22D0HVT
+       25   AOI31D0HVT
+       19   AOI32D0HVT
+        1   AOI33D0HVT
+      232   CKND0HVT
+      130   CKND2D0HVT
+       35   CKXOR2D0HVT
+      204   DFCNQD1HVT
+        1   DFSNQD1HVT
+        1   FCICIND1HVT
+        1   HCOSCOND1HVT
+        6   IAO21D0HVT
+        1   IIND4D0HVT
+       36   IND2D0HVT
+       11   IND3D0HVT
+        1   IND4D0HVT
+       22   INR2D0HVT
+        2   INR3D0HVT
+        3   IOA21D0HVT
+        4   MAOI222D0HVT
+        8   MAOI22D0HVT
+       20   MOAI22D0HVT
+       52   MUX2D0HVT
+       11   MUX2ND0HVT
+       37   MUX3D0HVT
+        2   ND3D0HVT
+        3   ND4D0HVT
+       98   NR2D0HVT
+       12   NR3D0HVT
+        9   NR4D0HVT
+        4   OA211D0HVT
+       15   OA21D0HVT
+        5   OA31D0HVT
+        8   OAI211D0HVT
+       65   OAI21D0HVT
+        1   OAI221D0HVT
+        8   OAI22D0HVT
+       20   OAI31D0HVT
+        1   OAI32D0HVT
+       25   OR2D0HVT
+        6   OR3D0HVT
+       14   OR4D0HVT
+       72   XNR2D0HVT
+       14   XNR3D0HVT
+        9   XOR3D0HVT
+
+=== hazard ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      139 wires
+      169 wire bits
+       19 public wires
+       49 public wire bits
+       19 ports
+       49 port bits
+      125 cells
+        4   $_ANDNOT_
+       59   $_AND_
+        6   $_NAND_
+        6   $_NOR_
+       38   $_ORNOT_
+        1   $_OR_
+       11   $_XNOR_
+
+=== FP_Mult ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      477 wires
+      823 wire bits
+       31 public wires
+      352 public wire bits
+        8 ports
+      101 port bits
+      740 cells
+       28   AN2D0HVT
+        3   AN3D0HVT
+        2   AN4D0HVT
+        5   AO21D0HVT
+       32   AO22D0HVT
+        3   AO31D0HVT
+        3   AOI211D0HVT
+       22   AOI21D0HVT
+        2   AOI221D0HVT
+        8   AOI22D0HVT
+        6   AOI31D0HVT
+        1   AOI32D0HVT
+        9   CKND0HVT
+       46   CKND2D0HVT
+       10   CKXOR2D0HVT
+       42   DFQD1HVT
+      239   EDFQD1HVT
+        2   FCICIND1HVT
+        3   IAO21D0HVT
+        5   IND2D0HVT
+       22   INR2D0HVT
+        1   INR3D0HVT
+        4   MAOI222D0HVT
+        1   MOAI22D0HVT
+       24   MUX2D0HVT
+       21   MUX2ND0HVT
+        5   ND3D0HVT
+        7   ND4D0HVT
+       51   NR2D0HVT
+        6   NR3D0HVT
+       22   NR4D0HVT
+        4   OA211D0HVT
+        3   OA21D0HVT
+        6   OAI211D0HVT
+       29   OAI21D0HVT
+        6   OAI22D0HVT
+        6   OAI31D0HVT
+       13   OAI32D0HVT
+        6   OR2D0HVT
+       12   XNR2D0HVT
+       15   XNR3D0HVT
+        5   XOR3D0HVT
+
+=== FP_Adder ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      772 wires
+     1083 wire bits
+       32 public wires
+      343 public wire bits
+        8 ports
+      101 port bits
+      987 cells
+       15   AN2D0HVT
+        3   AN3D0HVT
+        2   AN4D0HVT
+        2   AO211D0HVT
+       10   AO21D0HVT
+        4   AO221D0HVT
+       10   AO222D0HVT
+       14   AO22D0HVT
+        7   AO31D0HVT
+        3   AOI211D0HVT
+       18   AOI21D0HVT
+        3   AOI221D0HVT
+        1   AOI222D0HVT
+       15   AOI22D0HVT
+        7   AOI31D0HVT
+       49   CKND0HVT
+       54   CKND2D0HVT
+       24   CKXOR2D0HVT
+       44   DFQD1HVT
+      203   EDFQD1HVT
+        1   FCICIND1HVT
+        7   IAO21D0HVT
+       21   IND2D0HVT
+        2   IND4D0HVT
+       17   INR2D0HVT
+        2   INR3D0HVT
+        1   IOA21D0HVT
+       17   MAOI222D0HVT
+       14   MOAI22D0HVT
+       23   MUX2D0HVT
+       99   MUX2ND0HVT
+        2   MUX3D0HVT
+        5   ND3D0HVT
+        5   ND4D0HVT
+       88   NR2D0HVT
+       14   NR3D0HVT
+       17   NR4D0HVT
+        2   OA211D0HVT
+        8   OA21D0HVT
+        1   OA221D0HVT
+        1   OA22D0HVT
+        2   OA31D0HVT
+        8   OAI211D0HVT
+       36   OAI21D0HVT
+        7   OAI221D0HVT
+        1   OAI222D0HVT
+       18   OAI22D0HVT
+        6   OAI31D0HVT
+       17   OAI32D0HVT
+        6   OR2D0HVT
+        3   OR4D0HVT
+       34   XNR2D0HVT
+       10   XNR3D0HVT
+        4   XOR3D0HVT
+
+=== M7 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        4 wires
+       97 wire bits
+        4 public wires
+       97 public wire bits
+        4 ports
+       97 port bits
+       32 cells
+       32   $_MUX_
+
+=== M6 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        4 wires
+       97 wire bits
+        4 public wires
+       97 public wire bits
+        4 ports
+       97 port bits
+       32 cells
+       32   $_MUX_
+
+=== M5 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      138 wires
+      294 wire bits
+        5 public wires
+      130 public wire bits
+        5 ports
+      130 port bits
+      196 cells
+        2   $_ANDNOT_
+       33   $_AND_
+       32   $_DLATCH_N_
+      128   $_NAND_
+        1   $_NOR_
+
+=== M4 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      202 wires
+      358 wire bits
+        6 public wires
+      162 public wire bits
+        6 ports
+      162 port bits
+      228 cells
+        2   $_ANDNOT_
+       65   $_AND_
+      160   $_NAND_
+        1   $_NOR_
+
+=== M3 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      405 wires
+      655 wire bits
+        9 public wires
+      259 public wire bits
+        9 ports
+      259 port bits
+      428 cells
+        6   $_ANDNOT_
+      164   $_AND_
+      256   $_NAND_
+        1   $_NOR_
+        1   $_OR_
+
+=== M2 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        4 wires
+       97 wire bits
+        4 public wires
+       97 public wire bits
+        4 ports
+       97 port bits
+       32 cells
+       32   $_MUX_
+
+=== M1 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        4 wires
+       37 wire bits
+        4 public wires
+       37 public wire bits
+        4 ports
+       37 port bits
+       12 cells
+       12   $_MUX_
+
+=== CSR ===
+
+        +----------Local Count, excluding submodules.
+        | 
+     1072 wires
+     1561 wire bits
+       28 public wires
+      517 public wire bits
+       15 ports
+      150 port bits
+     1412 cells
+        9   $_ANDNOT_
+      244   $_AND_
+      578   $_MUX_
+      228   $_NAND_
+        5   $_NOR_
+        3   $_NOT_
+        4   $_ORNOT_
+        7   $_OR_
+        2   $_XNOR_
+       60   $_XOR_
+      272   DFQD1HVT
+
+=== design hierarchy ===
+
+        +----------Count including submodules.
+        | 
+    69643 soc_top
+      225 address_decoder
+      363 apb
+      162 apb_cdc_bridge
+      146   $paramod\handshake_bridge\WIDTH=s32'00000000000000000000000000100000
+      278   $paramod\handshake_bridge\WIDTH=s32'00000000000000000000000001000001
+    35953 data_mem
+        3 derive_clk_gpio
+        9 derive_clk_spi
+     1317 gpio
+     3481 instr_mem
+       17 interrupt_arbiter
+        2 reset_sync
+       53 riscv_top
+      146   $paramod\handshake_bridge\WIDTH=s32'00000000000000000000000000100000
+      274   $paramod\handshake_bridge\WIDTH=s32'00000000000000000000000001000000
+      286   $paramod\handshake_bridge\WIDTH=s32'00000000000000000000000001000011
+      530   $paramod\handshake_bridge\WIDTH=s32'00000000000000000000000010000000
+     1412   CSR
+      987   FP_Adder
+      740   FP_Mult
+       12   M1
+       32   M2
+      428   M3
+      228   M4
+      196   M5
+       32   M6
+       32   M7
+     1421   Multiplier
+       66   PC
+        6   alu
+     1746     alu_internal
+       96     latch
+        8   clk_div_fft
+       11   clk_fp_divider
+     1201   controller
+       20   derive_clk_mu1_div
+      966   divider
+      154   fft_top
+     3084     fft8
+      125   hazard
+      394   mux8_1
+      741   pipeline_reg1
+      393   pipeline_reg2
+      194   pipeline_reg3
+     8529   register_file
+        2   reset_sync
+      475 spi
+       13   ADD_DECO
+       68   BAUD_GEN
+       41   EDGE_COUNTER_16
+        5   PHASE_POLARITY
+       85   USR
+
+        +----------Count including submodules.
+        | 
+    54516 wires
+    80929 wire bits
+     1711 public wires
+    27540 public wire bits
+      764 ports
+     9182 port bits
+        - memories
+        - memory bits
+        - processes
+    69643 cells
+      737   $_ANDNOT_
+     9104   $_AND_
+       63   $_DLATCH_NP0_
+       66   $_DLATCH_N_
+    17479   $_MUX_
+    18836   $_NAND_
+      544   $_NOR_
+      289   $_NOT_
+     1218   $_ORNOT_
+     1319   $_OR_
+      539   $_XNOR_
+      484   $_XOR_
+       71   AN2D0HVT
+       11   AN3D0HVT
+        9   AN4D0HVT
+        7   AO211D0HVT
+       81   AO21D0HVT
+        4   AO221D0HVT
+       10   AO222D0HVT
+      130   AO22D0HVT
+       15   AO31D0HVT
+        6   AO32D0HVT
+       20   AOI211D0HVT
+      113   AOI21D0HVT
+       16   AOI221D0HVT
+       33   AOI222D0HVT
+       41   AOI22D0HVT
+       77   AOI31D0HVT
+       29   AOI32D0HVT
+        1   AOI33D0HVT
+      490   CKND0HVT
+      297   CKND2D0HVT
+       92   CKXOR2D0HVT
+     2544   DFCNQD1HVT
+     1241   DFQD1HVT
+       21   DFSNQD1HVT
+    11524   EDFQD1HVT
+        4   FCICIND1HVT
+        1   HCOSCOND1HVT
+       45   IAO21D0HVT
+        1   IIND4D0HVT
+      103   IND2D0HVT
+       13   IND3D0HVT
+        4   IND4D0HVT
+       85   INR2D0HVT
+        9   INR3D0HVT
+        3   INR4D0HVT
+        8   IOA21D0HVT
+       27   MAOI222D0HVT
+        9   MAOI22D0HVT
+       35   MOAI22D0HVT
+      223   MUX2D0HVT
+      137   MUX2ND0HVT
+       39   MUX3D0HVT
+       32   MUX4D0HVT
+       16   ND3D0HVT
+       26   ND4D0HVT
+      295   NR2D0HVT
+       42   NR3D0HVT
+       67   NR4D0HVT
+       11   OA211D0HVT
+       62   OA21D0HVT
+        1   OA221D0HVT
+        1   OA22D0HVT
+       18   OA31D0HVT
+       64   OAI211D0HVT
+      209   OAI21D0HVT
+        9   OAI221D0HVT
+        1   OAI222D0HVT
+       34   OAI22D0HVT
+       70   OAI31D0HVT
+       31   OAI32D0HVT
+       45   OR2D0HVT
+        8   OR3D0HVT
+       42   OR4D0HVT
+      175   XNR2D0HVT
+       56   XNR3D0HVT
+       21   XOR3D0HVT
+       15 submodules
+        1   address_decoder
+        1   apb
+        2   apb_cdc_bridge
+        1   data_mem
+        1   derive_clk_gpio
+        1   derive_clk_spi
+        1   gpio
+        1   instr_mem
+        1   interrupt_arbiter
+        3   reset_sync
+        1   riscv_top
+        1   spi
+

@@ -1,0 +1,151 @@
+Startpoint: rst (input port clocked by clk_spi)
+Endpoint: u_rst_sync_spi/_0_
+          (recovery check against rising-edge clock clk_spi_div)
+Path Group: asynchronous
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+  12.00   12.00   clock clk_spi (rise edge)
+   0.00   12.00   clock network delay (ideal)
+   0.30   12.30 v input external delay
+   0.00   12.30 v rst (in)
+   0.12   12.42 ^ _3_/ZN (CKND0HVT)
+   0.00   12.42 ^ u_rst_sync_spi/_0_/CDN (DFCNQD1HVT)
+          12.42   data arrival time
+
+  18.00   18.00   clock clk_spi_div (rise edge)
+   0.00   18.00   clock network delay (ideal)
+  -0.10   17.90   clock uncertainty
+   0.00   17.90   clock reconvergence pessimism
+          17.90 ^ u_rst_sync_spi/_0_/CP (DFCNQD1HVT)
+   0.05   17.95   library recovery time
+          17.95   data required time
+---------------------------------------------------------
+          17.95   data required time
+         -12.42   data arrival time
+---------------------------------------------------------
+           5.53   slack (MET)
+
+
+Startpoint: spi_miso (input port clocked by clk_spi)
+Endpoint: dbg_miso (output port clocked by clk_spi)
+Path Group: clk_spi
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk_spi (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.30    0.30 ^ input external delay
+   0.00    0.30 ^ spi_miso (in)
+   0.00    0.30 ^ dbg_miso (out)
+           0.30   data arrival time
+
+   6.00    6.00   clock clk_spi (rise edge)
+   0.00    6.00   clock network delay (ideal)
+  -0.10    5.90   clock uncertainty
+   0.00    5.90   clock reconvergence pessimism
+  -0.30    5.60   output external delay
+           5.60   data required time
+---------------------------------------------------------
+           5.60   data required time
+          -0.30   data arrival time
+---------------------------------------------------------
+           5.30   slack (MET)
+
+
+Startpoint: u_rst_sync_spi/_0_
+            (rising edge-triggered flip-flop clocked by clk_spi_div)
+Endpoint: u_spi/_1404_ (recovery check against rising-edge clock clk_spi_div)
+Path Group: asynchronous
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk_spi_div (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ u_rst_sync_spi/_0_/CP (DFCNQD1HVT)
+   1.52    1.52 ^ u_rst_sync_spi/_0_/Q (DFCNQD1HVT)
+   2.20    3.72 v _5_/ZN (CKND0HVT)
+   0.32    4.04 ^ u_spi/_1388_/ZN (CKND0HVT)
+   0.00    4.04 ^ u_spi/_1404_/SDN (DFSNQD1HVT)
+           4.04   data arrival time
+
+  18.00   18.00   clock clk_spi_div (rise edge)
+   0.00   18.00   clock network delay (ideal)
+  -0.10   17.90   clock uncertainty
+   0.00   17.90   clock reconvergence pessimism
+          17.90 ^ u_spi/_1404_/CP (DFSNQD1HVT)
+  -0.04   17.86   library recovery time
+          17.86   data required time
+---------------------------------------------------------
+          17.86   data required time
+          -4.04   data arrival time
+---------------------------------------------------------
+          13.82   slack (MET)
+
+
+Startpoint: u_spi/_1406_
+            (rising edge-triggered flip-flop clocked by clk_spi_div)
+Endpoint: dbg_mosi (output port clocked by clk_spi)
+Path Group: clk_spi
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk_spi_div (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ u_spi/_1406_/CP (DFCNQD1HVT)
+   0.26    0.26 ^ u_spi/_1406_/Q (DFCNQD1HVT)
+   0.10    0.36 v u_spi/init_USR/_187_/ZN (IND2D0HVT)
+   0.17    0.53 ^ u_spi/_1042_/ZN (MUX2ND0HVT)
+   0.08    0.61 v u_spi/_1279_/ZN (IND2D0HVT)
+   0.00    0.61 v dbg_mosi (out)
+           0.61   data arrival time
+
+   6.00    6.00   clock clk_spi (rise edge)
+   0.00    6.00   clock network delay (ideal)
+  -0.10    5.90   clock uncertainty
+   0.00    5.90   clock reconvergence pessimism
+  -0.30    5.60   output external delay
+           5.60   data required time
+---------------------------------------------------------
+           5.60   data required time
+          -0.61   data arrival time
+---------------------------------------------------------
+           4.99   slack (MET)
+
+
+Startpoint: u_rst_sync_spi/_0_
+            (rising edge-triggered flip-flop clocked by clk_spi_div)
+Endpoint: u_spi/init_USR/_204_
+          (rising edge-triggered flip-flop clocked by clk_spi_div)
+Path Group: clk_spi_div
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk_spi_div (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ u_rst_sync_spi/_0_/CP (DFCNQD1HVT)
+   1.52    1.52 ^ u_rst_sync_spi/_0_/Q (DFCNQD1HVT)
+   2.20    3.72 v _5_/ZN (CKND0HVT)
+   0.52    4.24 ^ u_spi/init_USR/_185_/ZN (INR2D0HVT)
+   0.00    4.24 ^ u_spi/init_USR/_204_/E (EDFQD1HVT)
+           4.24   data arrival time
+
+  18.00   18.00   clock clk_spi_div (rise edge)
+   0.00   18.00   clock network delay (ideal)
+  -0.10   17.90   clock uncertainty
+   0.00   17.90   clock reconvergence pessimism
+          17.90 ^ u_spi/init_USR/_204_/CP (EDFQD1HVT)
+  -0.25   17.65   library setup time
+          17.65   data required time
+---------------------------------------------------------
+          17.65   data required time
+          -4.24   data arrival time
+---------------------------------------------------------
+          13.41   slack (MET)
+
+

@@ -1,0 +1,9 @@
+source /vlsi/cad/eda_tools/eda_env.sh
+source ~/venvs/gemini/bin/activate
+#export GOOGLE_API_KEY="key"
+#export GOOGLE_API_KEY="key"
+#export GOOGLE_API_KEY="key"
+export GOOGLE_API_KEY="key"
+#export GOOGLE_API_KEY="key"
+export OPENAI_API_KEY="key"
+export ANTHROPIC_API_KEY="key"

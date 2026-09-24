@@ -1,0 +1,40 @@
+Clock clk
+   0.61 source latency u_data_mem/_65841_/CP ^
+  -0.48 target latency u_riscv_top/pipeline_register3/_677_/CP ^
+   0.10 clock uncertainty
+   0.00 CRPR
+--------------
+   0.22 setup skew
+
+Clock clk_fft
+   0.34 source latency u_riscv_top/fft/fft_core/_6635_/CP ^
+  -0.29 target latency u_riscv_top/fft/fft_core/_6552_/CP ^
+   0.10 clock uncertainty
+   0.00 CRPR
+--------------
+   0.14 setup skew
+
+Clock clk_fp
+   0.10 source latency u_riscv_top/clk_fp_divider/_25_/CP ^
+  -0.10 target latency u_riscv_top/clk_fp_divider/_25_/CP ^
+   0.10 clock uncertainty
+   0.00 CRPR
+--------------
+   0.10 setup skew
+
+Clock clk_md
+   0.11 source latency u_riscv_top/derive_clk_mu1_div/_42_/CP ^
+  -0.11 target latency u_riscv_top/derive_clk_mu1_div/_42_/CP ^
+   0.10 clock uncertainty
+   0.00 CRPR
+--------------
+   0.10 setup skew
+
+Clock clk_spi
+   0.10 source latency u_derive_clk_spi/_21_/CP ^
+  -0.10 target latency u_derive_clk_spi/_20_/CP ^
+   0.10 clock uncertainty
+   0.00 CRPR
+--------------
+   0.10 setup skew
+

@@ -1,0 +1,42 @@
+violation type: Cut Spacing
+	srcs: net:A2_sim[0] net:u_riscv_top/register_file/regfile\[20\][1]
+	bbox = (357.9500, 231.2500) - (358.0500, 231.2500) on Layer VIA1
+violation type: Metal Spacing
+	srcs: net:u_riscv_top/register_file/_08049_ net:u_riscv_top/register_file/_08099_
+	bbox = (478.8500, 38.2500) - (478.9500, 38.3100) on Layer M2
+violation type: Metal Spacing
+	srcs: net:A2_sim[1] net:VSS
+	bbox = (480.8500, 36.1000) - (480.9500, 36.1700) on Layer M2
+violation type: Metal Spacing
+	srcs: net:u_riscv_top/register_file/regfile\[16\][7] net:VSS
+	bbox = (503.0500, 241.3000) - (503.1500, 241.3100) on Layer M2
+violation type: Metal Spacing
+	srcs: net:VSS net:u_riscv_top/register_file/net2384
+	bbox = (519.2500, 241.0900) - (519.3500, 241.1000) on Layer M2
+violation type: Metal Spacing
+	srcs: net:u_riscv_top/register_file/regfile\[18\][7] net:u_riscv_top/register_file/regfile\[22\][7]
+	bbox = (496.0200, 248.7500) - (496.0500, 248.8500) on Layer M3
+violation type: Short
+	srcs: net:A2_sim[1] net:u_riscv_top/register_file/_08717_
+	bbox = (480.8500, 36.3500) - (480.9500, 36.4500) on Layer M2
+violation type: Short
+	srcs: net:u_riscv_top/register_file/_06656_ net:VSS
+	bbox = (488.4500, 237.5000) - (488.5500, 237.6300) on Layer M2
+violation type: Short
+	srcs: net:u_riscv_top/register_file/_08852_ net:u_riscv_top/register_file/_09471_
+	bbox = (499.8500, 242.1500) - (499.9500, 242.2500) on Layer M2
+violation type: Short
+	srcs: net:u_riscv_top/register_file/_09472_ net:u_riscv_top/register_file/_09474_
+	bbox = (501.4500, 241.7500) - (501.5500, 241.8500) on Layer M2
+violation type: Short
+	srcs: net:u_riscv_top/register_file/_08901_ net:u_riscv_top/register_file/regfile\[8\][29]
+	bbox = (480.6500, 37.9500) - (480.7500, 38.0500) on Layer M3
+violation type: Short
+	srcs: net:u_riscv_top/register_file/_06208_ net:u_riscv_top/register_file/_10515_
+	bbox = (489.2500, 236.3500) - (489.3500, 236.4500) on Layer M3
+violation type: Short
+	srcs: net:u_riscv_top/register_file/_08655_ net:u_riscv_top/register_file/_09472_
+	bbox = (501.4100, 241.5500) - (501.5900, 241.6500) on Layer M3
+violation type: Short
+	srcs: net:u_riscv_top/register_file/_08655_ net:u_riscv_top/register_file/_09472_
+	bbox = (501.4500, 241.5500) - (501.5500, 241.6500) on Layer M3

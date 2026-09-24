@@ -1,0 +1,1812 @@
+51. Printing statistics.
+
+=== BAUD_GEN ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+       60        - wires
+       87        - wire bits
+       12        - public wires
+       25        - public wire bits
+        7        - ports
+       11        - port bits
+       68    87.12 cells
+       10        -   $_AND_
+       18        -   $_MUX_
+        3        -   $_NAND_
+        1        -   $_NOR_
+       13        -   $_NOT_
+        5        -   $_XNOR_
+        7        -   $_XOR_
+       11    87.12   DFCNQD1HVT
+
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_XNOR_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+
+   Chip area for module '\BAUD_GEN': 87.120000
+     of which used for sequential elements: 87.120000 (100.00%)
+
+=== EDGE_COUNTER_16 ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+       39        - wires
+       45        - wire bits
+        9        - public wires
+       12        - public wire bits
+        5        - ports
+        5        - port bits
+       41    63.36 cells
+        2        -   $_ANDNOT_
+        6        -   $_AND_
+        6        -   $_MUX_
+        2        -   $_NAND_
+        2        -   $_NOR_
+       10        -   $_NOT_
+        4        -   $_OR_
+        1        -   $_XNOR_
+        8    63.36   DFCNQD1HVT
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_OR_ is unknown!
+   Area for cell type $_XNOR_ is unknown!
+
+   Chip area for module '\EDGE_COUNTER_16': 63.360000
+     of which used for sequential elements: 63.360000 (100.00%)
+
+=== PHASE_POLARITY ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+       11        - wires
+       11        - wire bits
+        9        - public wires
+        9        - public wire bits
+        9        - ports
+        9        - port bits
+        5        - cells
+        1        -   $_MUX_
+        1        -   $_ORNOT_
+        2        -   $_XNOR_
+        1        -   $_XOR_
+
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_ORNOT_ is unknown!
+   Area for cell type $_XNOR_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+
+=== USR ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+       90        - wires
+      112        - wire bits
+       18        - public wires
+       40        - public wire bits
+       14        - ports
+       29        - port bits
+       85    90.36 cells
+        5        -   $_ANDNOT_
+       12        -   $_AND_
+       10        -   $_MUX_
+       27        -   $_NAND_
+       10        -   $_NOT_
+        8        -   $_ORNOT_
+        2        -   $_OR_
+        8    63.36   DFCNQD1HVT
+        1     8.28   DFSNQD1HVT
+        2    18.72   EDFQD1HVT
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_ORNOT_ is unknown!
+   Area for cell type $_OR_ is unknown!
+
+   Chip area for module '\USR': 90.360000
+     of which used for sequential elements: 90.360000 (100.00%)
+
+=== spi ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+      363        - wires
+      597        - wire bits
+       39        - public wires
+      266        - public wire bits
+       20        - ports
+      113        - port bits
+      475   1699.2 cells
+        1        -   $_DLATCH_N_
+        1     2.16   AN2D0HVT
+        4    10.08   AN3D0HVT
+        3     8.64   AN4D0HVT
+        1     2.88   AO211D0HVT
+        1     2.52   AO21D0HVT
+        1     2.88   AO22D0HVT
+        2     5.04   AOI211D0HVT
+        8    17.28   AOI21D0HVT
+        2     5.76   AOI221D0HVT
+       32    115.2   AOI222D0HVT
+        1     2.52   AOI22D0HVT
+        3     7.56   AOI31D0HVT
+      119   128.52   CKND0HVT
+       19    27.36   CKND2D0HVT
+      110    871.2   DFCNQD1HVT
+        4    33.12   DFSNQD1HVT
+        1     2.52   IAO21D0HVT
+        4     8.64   IND2D0HVT
+        1     2.88   IND4D0HVT
+        2     4.32   INR2D0HVT
+        3     7.56   INR3D0HVT
+        1     2.52   IOA21D0HVT
+      105    340.2   MUX2D0HVT
+        1     2.88   MUX2ND0HVT
+        2     4.32   ND3D0HVT
+        2     5.04   ND4D0HVT
+       24    34.56   NR2D0HVT
+        3     6.48   NR3D0HVT
+        1     2.52   OA21D0HVT
+        1     2.52   OAI211D0HVT
+        4     8.64   OAI21D0HVT
+        4    10.08   OAI31D0HVT
+        2     5.04   OR3D0HVT
+        2     5.76   OR4D0HVT
+        5        - submodules
+        1        -   ADD_DECO
+        1        -   BAUD_GEN
+        1        -   EDGE_COUNTER_16
+        1        -   PHASE_POLARITY
+        1        -   USR
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_DLATCH_N_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_ORNOT_ is unknown!
+   Area for cell type $_OR_ is unknown!
+   Area for cell type $_XNOR_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+
+   Chip area for module '\spi': 1699.200000
+     of which used for sequential elements: 904.320000 (53.22%)
+
+=== $paramod\handshake_bridge\WIDTH=s32'00000000000000000000000001000011 ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+      160        - wires
+      358        - wire bits
+       17        - public wires
+      215        - public wire bits
+        9        - ports
+      141        - port bits
+      286  1132.56 cells
+        1        -   $_ANDNOT_
+      138        -   $_MUX_
+        2        -   $_NOT_
+        1        -   $_XNOR_
+        1        -   $_XOR_
+      143  1132.56   DFCNQD1HVT
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_XNOR_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+
+   Chip area for module '$paramod\handshake_bridge\WIDTH=s32'00000000000000000000000001000011': 1132.560000
+     of which used for sequential elements: 1132.560000 (100.00%)
+
+=== $paramod\handshake_bridge\WIDTH=s32'00000000000000000000000001000000 ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+      154        - wires
+      343        - wire bits
+       17        - public wires
+      206        - public wire bits
+        9        - ports
+      135        - port bits
+      274  1085.04 cells
+        1        -   $_ANDNOT_
+      132        -   $_MUX_
+        2        -   $_NOT_
+        1        -   $_XNOR_
+        1        -   $_XOR_
+      137  1085.04   DFCNQD1HVT
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_XNOR_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+
+   Chip area for module '$paramod\handshake_bridge\WIDTH=s32'00000000000000000000000001000000': 1085.040000
+     of which used for sequential elements: 1085.040000 (100.00%)
+
+=== $paramod\handshake_bridge\WIDTH=s32'00000000000000000000000010000000 ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+      282        - wires
+      663        - wire bits
+       17        - public wires
+      398        - public wire bits
+        9        - ports
+      263        - port bits
+      530   2098.8 cells
+        1        -   $_ANDNOT_
+      260        -   $_MUX_
+        2        -   $_NOT_
+        1        -   $_XNOR_
+        1        -   $_XOR_
+      265   2098.8   DFCNQD1HVT
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_XNOR_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+
+   Chip area for module '$paramod\handshake_bridge\WIDTH=s32'00000000000000000000000010000000': 2098.800000
+     of which used for sequential elements: 2098.800000 (100.00%)
+
+=== $paramod\handshake_bridge\WIDTH=s32'00000000000000000000000001000001 ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+      156        - wires
+      348        - wire bits
+       17        - public wires
+      209        - public wire bits
+        9        - ports
+      137        - port bits
+      278  1100.88 cells
+        1        -   $_ANDNOT_
+      134        -   $_MUX_
+        2        -   $_NOT_
+        1        -   $_XNOR_
+        1        -   $_XOR_
+      139  1100.88   DFCNQD1HVT
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_XNOR_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+
+   Chip area for module '$paramod\handshake_bridge\WIDTH=s32'00000000000000000000000001000001': 1100.880000
+     of which used for sequential elements: 1100.880000 (100.00%)
+
+=== $paramod\handshake_bridge\WIDTH=s32'00000000000000000000000000100000 ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+       90        - wires
+      183        - wire bits
+       17        - public wires
+      110        - public wire bits
+        9        - ports
+       71        - port bits
+      146   578.16 cells
+        1        -   $_ANDNOT_
+       68        -   $_MUX_
+        2        -   $_NOT_
+        1        -   $_XNOR_
+        1        -   $_XOR_
+       73   578.16   DFCNQD1HVT
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_XNOR_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+
+   Chip area for module '$paramod\handshake_bridge\WIDTH=s32'00000000000000000000000000100000': 578.160000
+     of which used for sequential elements: 578.160000 (100.00%)
+
+=== soc_top ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+      121        - wires
+     1424        - wire bits
+      118        - public wires
+     1421        - public wire bits
+       53        - ports
+      608        - port bits
+        3     3.24 cells
+        3     3.24   CKND0HVT
+       15        - submodules
+        1        -   address_decoder
+        1        -   apb
+        2        -   apb_cdc_bridge
+        1        -   data_mem
+        1        -   derive_clk_gpio
+        1        -   derive_clk_spi
+        1        -   gpio
+        1        -   instr_mem
+        1        -   interrupt_arbiter
+        3        -   reset_sync
+        1        -   riscv_top
+        1        -   spi
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_DLATCH_NP0_ is unknown!
+   Area for cell type $_DLATCH_N_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_ORNOT_ is unknown!
+   Area for cell type $_OR_ is unknown!
+   Area for cell type $_XNOR_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+
+   Chip area for module '\soc_top': 3.240000
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== riscv_top ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+      231        - wires
+     3712        - wire bits
+      215        - public wires
+     3696        - public wire bits
+       51        - ports
+      770        - port bits
+       53   329.04 cells
+        5     12.6   AO21D0HVT
+       11    11.88   CKND0HVT
+        5     39.6   DFCNQD1HVT
+       32   264.96   MUX4D0HVT
+       42        - submodules
+        4        -   $paramod\handshake_bridge\WIDTH=s32'00000000000000000000000000100000
+        2        -   $paramod\handshake_bridge\WIDTH=s32'00000000000000000000000001000000
+        2        -   $paramod\handshake_bridge\WIDTH=s32'00000000000000000000000001000011
+        2        -   $paramod\handshake_bridge\WIDTH=s32'00000000000000000000000010000000
+        1        -   CSR
+        1        -   FP_Adder
+        1        -   FP_Mult
+        1        -   M1
+        1        -   M2
+        1        -   M3
+        2        -   M4
+        1        -   M5
+        1        -   M6
+        1        -   M7
+        1        -   Multiplier
+        1        -   PC
+        1        -   alu
+        1        -   clk_div_fft
+        1        -   clk_fp_divider
+        1        -   controller
+        1        -   derive_clk_mu1_div
+        1        -   divider
+        1        -   fft_top
+        1        -   hazard
+        1        -   mux8_1
+        1        -   pipeline_reg1
+        1        -   pipeline_reg2
+        1        -   pipeline_reg3
+        1        -   register_file
+        6        -   reset_sync
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_DLATCH_NP0_ is unknown!
+   Area for cell type $_DLATCH_N_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_ORNOT_ is unknown!
+   Area for cell type $_OR_ is unknown!
+   Area for cell type $_XNOR_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+
+   Chip area for module '\riscv_top': 329.040000
+     of which used for sequential elements: 39.600000 (12.04%)
+
+=== register_file ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+     7454        - wires
+     8621        - wire bits
+       45        - public wires
+     1212        - public wire bits
+       13        - ports
+      188        - port bits
+     8529  9285.12 cells
+      307        -   $_ANDNOT_
+      773        -   $_AND_
+     3665        -   $_MUX_
+     1623        -   $_NAND_
+      218        -   $_NOR_
+        1        -   $_NOT_
+      426        -   $_ORNOT_
+      524        -   $_OR_
+      992  9285.12   EDFQD1HVT
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_ORNOT_ is unknown!
+   Area for cell type $_OR_ is unknown!
+
+   Chip area for module '\register_file': 9285.120000
+     of which used for sequential elements: 9285.120000 (100.00%)
+
+=== pipeline_reg3 ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+      138        - wires
+      262        - wire bits
+        8        - public wires
+      132        - public wire bits
+        8        - ports
+      132        - port bits
+      194   437.76 cells
+      128        -   $_MUX_
+        2        -   $_NOR_
+       64   437.76   DFQD1HVT
+
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+
+   Chip area for module '\pipeline_reg3': 437.760000
+     of which used for sequential elements: 437.760000 (100.00%)
+
+=== pipeline_reg2 ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+      279        - wires
+      527        - wire bits
+       16        - public wires
+      264        - public wire bits
+       16        - ports
+      264        - port bits
+      393    889.2 cells
+      260        -   $_MUX_
+        3        -   $_NOR_
+      130    889.2   DFQD1HVT
+
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+
+   Chip area for module '\pipeline_reg2': 889.200000
+     of which used for sequential elements: 889.200000 (100.00%)
+
+=== pipeline_reg1 ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+      498        - wires
+     1096        - wire bits
+       25        - public wires
+      623        - public wire bits
+       25        - ports
+      623        - port bits
+      741  1913.76 cells
+        1        -   $_ANDNOT_
+      472        -   $_MUX_
+      236  1614.24   DFQD1HVT
+       32   299.52   EDFQD1HVT
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+
+   Chip area for module '\pipeline_reg1': 1913.760000
+     of which used for sequential elements: 1913.760000 (100.00%)
+
+=== mux8_1 ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+      339        - wires
+      589        - wire bits
+        8        - public wires
+      227        - public wire bits
+        8        - ports
+      227        - port bits
+      394        - cells
+        4        -   $_ANDNOT_
+      132        -   $_AND_
+       32        -   $_DLATCH_N_
+        1        -   $_MUX_
+      224        -   $_NAND_
+        1        -   $_NOR_
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_DLATCH_N_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+
+=== interrupt_arbiter ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+       24        - wires
+       24        - wire bits
+       11        - public wires
+       11        - public wire bits
+       10        - ports
+       10        - port bits
+       17    27.36 cells
+        1        -   $_ANDNOT_
+        2        -   $_AND_
+        5        -   $_MUX_
+        1        -   $_NAND_
+        2        -   $_NOR_
+        1        -   $_ORNOT_
+        1        -   $_OR_
+        4    27.36   DFQD1HVT
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_ORNOT_ is unknown!
+   Area for cell type $_OR_ is unknown!
+
+   Chip area for module '\interrupt_arbiter': 27.360000
+     of which used for sequential elements: 27.360000 (100.00%)
+
+=== instr_mem ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+     2466        - wires
+     3640        - wire bits
+       41        - public wires
+     1215        - public wire bits
+        7        - ports
+      131        - port bits
+     3481  9584.64 cells
+       80        -   $_ANDNOT_
+      395        -   $_AND_
+      770        -   $_MUX_
+      502        -   $_NAND_
+      140        -   $_NOR_
+      316        -   $_ORNOT_
+      254        -   $_OR_
+     1024  9584.64   EDFQD1HVT
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_ORNOT_ is unknown!
+   Area for cell type $_OR_ is unknown!
+
+   Chip area for module '\instr_mem': 9584.640000
+     of which used for sequential elements: 9584.640000 (100.00%)
+
+=== ADD_DECO ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+       11        - wires
+       30        - wire bits
+        3        - public wires
+       22        - public wire bits
+        3        - ports
+       22        - port bits
+       13        - cells
+        4        -   $_ANDNOT_
+        8        -   $_AND_
+        1        -   $_NOR_
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+
+=== gpio ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+     1077        - wires
+     1592        - wire bits
+       35        - public wires
+      548        - public wire bits
+       14        - ports
+      113        - port bits
+     1317  1405.08 cells
+       67        -   $_ANDNOT_
+      349        -   $_AND_
+      189        -   $_MUX_
+      290        -   $_NAND_
+       26        -   $_NOR_
+      177        -   $_NOT_
+        4        -   $_ORNOT_
+       38        -   $_OR_
+      168  1330.56   DFCNQD1HVT
+        9    74.52   DFSNQD1HVT
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_ORNOT_ is unknown!
+   Area for cell type $_OR_ is unknown!
+
+   Chip area for module '\gpio': 1405.080000
+     of which used for sequential elements: 1405.080000 (100.00%)
+
+=== fft8 ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+     2239        - wires
+     3446        - wire bits
+      107        - public wires
+      978        - public wire bits
+       20        - ports
+      260        - port bits
+     3084  5342.76 cells
+       55        -   $_ANDNOT_
+      117        -   $_AND_
+      249        -   $_MUX_
+      882        -   $_NAND_
+        5        -   $_NOR_
+        3        -   $_NOT_
+      307        -   $_ORNOT_
+       66        -   $_OR_
+      443        -   $_XNOR_
+      352        -   $_XOR_
+      127   868.68   DFQD1HVT
+      478  4474.08   EDFQD1HVT
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_ORNOT_ is unknown!
+   Area for cell type $_OR_ is unknown!
+   Area for cell type $_XNOR_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+
+   Chip area for module '\fft8': 5342.760000
+     of which used for sequential elements: 5342.760000 (100.00%)
+
+=== fft_top ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+       49        - wires
+      543        - wire bits
+       30        - public wires
+      524        - public wire bits
+       12        - ports
+      263        - port bits
+      154   1285.2 cells
+        2     4.32   AN2D0HVT
+        1     2.52   AO21D0HVT
+        1     2.88   AO31D0HVT
+       10     10.8   CKND0HVT
+        6    47.52   DFCNQD1HVT
+        1     8.28   DFSNQD1HVT
+      128  1198.08   EDFQD1HVT
+        2     4.32   IND2D0HVT
+        1     2.88   MAOI22D0HVT
+        1     1.44   NR2D0HVT
+        1     2.16   OAI21D0HVT
+        1        - submodules
+        1        -   fft8
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_ORNOT_ is unknown!
+   Area for cell type $_OR_ is unknown!
+   Area for cell type $_XNOR_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+
+   Chip area for module '\fft_top': 1285.200000
+     of which used for sequential elements: 1253.880000 (97.56%)
+
+=== divider ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+      779        - wires
+     1069        - wire bits
+       20        - public wires
+      247        - public wire bits
+        9        - ports
+      104        - port bits
+      966  3545.64 cells
+        1     2.16   AN2D0HVT
+        1     2.88   AN4D0HVT
+       47   118.44   AO21D0HVT
+       10     28.8   AO22D0HVT
+        1     2.88   AO31D0HVT
+        6    15.12   AOI211D0HVT
+       35     75.6   AOI21D0HVT
+        4    11.52   AOI221D0HVT
+       15     37.8   AOI22D0HVT
+       36    90.72   AOI31D0HVT
+        9    25.92   AOI32D0HVT
+       57    61.56   CKND0HVT
+       48    69.12   CKND2D0HVT
+       23     82.8   CKXOR2D0HVT
+       37   293.04   DFCNQD1HVT
+        1     8.28   DFSNQD1HVT
+      138  1291.68   EDFQD1HVT
+       28    70.56   IAO21D0HVT
+       35     75.6   IND2D0HVT
+        2     5.04   IND3D0HVT
+       22    47.52   INR2D0HVT
+        1     2.52   INR3D0HVT
+        3     8.64   INR4D0HVT
+        3     7.56   IOA21D0HVT
+        2     5.76   MAOI222D0HVT
+       19    61.56   MUX2D0HVT
+        5     14.4   MUX2ND0HVT
+        2     4.32   ND3D0HVT
+        9    22.68   ND4D0HVT
+       33    47.52   NR2D0HVT
+        7    15.12   NR3D0HVT
+       19    47.88   NR4D0HVT
+        1     2.88   OA211D0HVT
+       35     88.2   OA21D0HVT
+       11    31.68   OA31D0HVT
+       41   103.32   OAI211D0HVT
+       74   159.84   OAI21D0HVT
+        1     2.88   OAI221D0HVT
+        2     5.04   OAI22D0HVT
+       34    85.68   OAI31D0HVT
+        8    17.28   OR2D0HVT
+       23    66.24   OR4D0HVT
+       57    205.2   XNR2D0HVT
+       17   104.04   XNR3D0HVT
+        3    18.36   XOR3D0HVT
+
+   Chip area for module '\divider': 3545.640000
+     of which used for sequential elements: 1593.000000 (44.93%)
+
+=== derive_clk_spi ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        9        - wires
+       11        - wire bits
+        4        - public wires
+        5        - public wire bits
+        3        - ports
+        3        - port bits
+        9    23.76 cells
+        1        -   $_ANDNOT_
+        1        -   $_NOR_
+        4        -   $_NOT_
+        3    23.76   DFCNQD1HVT
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_NOT_ is unknown!
+
+   Chip area for module '\derive_clk_spi': 23.760000
+     of which used for sequential elements: 23.760000 (100.00%)
+
+=== derive_clk_mu1_div ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+       18        - wires
+       22        - wire bits
+        6        - public wires
+        8        - public wire bits
+        4        - ports
+        4        - port bits
+       20    47.52 cells
+        3        -   $_ANDNOT_
+        1        -   $_MUX_
+        2        -   $_NOR_
+        8        -   $_NOT_
+        6    47.52   DFCNQD1HVT
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_NOT_ is unknown!
+
+   Chip area for module '\derive_clk_mu1_div': 47.520000
+     of which used for sequential elements: 47.520000 (100.00%)
+
+=== derive_clk_gpio ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        5        - wires
+        5        - wire bits
+        3        - public wires
+        3        - public wire bits
+        3        - ports
+        3        - port bits
+        3     7.92 cells
+        2        -   $_NOT_
+        1     7.92   DFCNQD1HVT
+
+   Area for cell type $_NOT_ is unknown!
+
+   Chip area for module '\derive_clk_gpio': 7.920000
+     of which used for sequential elements: 7.920000 (100.00%)
+
+=== data_mem ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+    27992        - wires
+    36002        - wire bits
+      263        - public wires
+     8273        - public wire bits
+        7        - ports
+       81        - port bits
+    35953 7.67E+04 cells
+        9        -   $_ANDNOT_
+     5852        -   $_AND_
+     8192        -   $_MUX_
+    13448        -   $_NAND_
+        4        -   $_NOR_
+      256        -   $_OR_
+     8192 7.67E+04   EDFQD1HVT
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_OR_ is unknown!
+
+   Chip area for module '\data_mem': 76677.120000
+     of which used for sequential elements: 76677.120000 (100.00%)
+
+=== controller ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+     1035        - wires
+     1429        - wire bits
+       80        - public wires
+      471        - public wire bits
+       76        - ports
+      435        - port bits
+     1201   1652.4 cells
+       71        -   $_ANDNOT_
+      222        -   $_AND_
+      304        -   $_MUX_
+      203        -   $_NAND_
+       76        -   $_NOR_
+       10        -   $_NOT_
+       37        -   $_ORNOT_
+       60        -   $_OR_
+      154  1053.36   DFQD1HVT
+       64   599.04   EDFQD1HVT
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_ORNOT_ is unknown!
+   Area for cell type $_OR_ is unknown!
+
+   Chip area for module '\controller': 1652.400000
+     of which used for sequential elements: 1652.400000 (100.00%)
+
+=== clk_fp_divider ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+       12        - wires
+       15        - wire bits
+        5        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+       11    31.68 cells
+        6        -   $_NOT_
+        1        -   $_XOR_
+        4    31.68   DFCNQD1HVT
+
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+
+   Chip area for module '\clk_fp_divider': 31.680000
+     of which used for sequential elements: 31.680000 (100.00%)
+
+=== clk_div_fft ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+       10        - wires
+       13        - wire bits
+        5        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        8    23.76 cells
+        4        -   $_NOT_
+        1        -   $_XOR_
+        3    23.76   DFCNQD1HVT
+
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+
+   Chip area for module '\clk_div_fft': 23.760000
+     of which used for sequential elements: 23.760000 (100.00%)
+
+=== apb_cdc_bridge ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+      116        - wires
+      498        - wire bits
+       29        - public wires
+      411        - public wire bits
+       18        - ports
+      204        - port bits
+      162   594.72 cells
+        6        -   $_ANDNOT_
+        6        -   $_AND_
+       67        -   $_MUX_
+        1        -   $_NAND_
+        2        -   $_ORNOT_
+        5        -   $_OR_
+       73   578.16   DFCNQD1HVT
+        2    16.56   DFSNQD1HVT
+        2        - submodules
+        1        -   $paramod\handshake_bridge\WIDTH=s32'00000000000000000000000000100000
+        1        -   $paramod\handshake_bridge\WIDTH=s32'00000000000000000000000001000001
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_ORNOT_ is unknown!
+   Area for cell type $_OR_ is unknown!
+   Area for cell type $_XNOR_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+
+   Chip area for module '\apb_cdc_bridge': 594.720000
+     of which used for sequential elements: 594.720000 (100.00%)
+
+=== apb ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+      277        - wires
+      496        - wire bits
+       18        - public wires
+      237        - public wire bits
+       17        - ports
+      234        - port bits
+      363   711.36 cells
+        5        -   $_ANDNOT_
+       10        -   $_AND_
+      235        -   $_MUX_
+        1        -   $_NAND_
+        5        -   $_NOR_
+        1        -   $_ORNOT_
+        2        -   $_OR_
+      104   711.36   DFQD1HVT
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_ORNOT_ is unknown!
+   Area for cell type $_OR_ is unknown!
+
+   Chip area for module '\apb': 711.360000
+     of which used for sequential elements: 711.360000 (100.00%)
+
+=== alu_internal ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+     1630        - wires
+     1824        - wire bits
+       12        - public wires
+      144        - public wire bits
+       11        - ports
+      139        - port bits
+     1746        - cells
+       71        -   $_ANDNOT_
+      452        -   $_AND_
+       63        -   $_DLATCH_NP0_
+        1        -   $_DLATCH_N_
+      257        -   $_MUX_
+      593        -   $_NAND_
+       30        -   $_NOR_
+        9        -   $_NOT_
+       70        -   $_ORNOT_
+       91        -   $_OR_
+       61        -   $_XNOR_
+       48        -   $_XOR_
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_DLATCH_NP0_ is unknown!
+   Area for cell type $_DLATCH_N_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_ORNOT_ is unknown!
+   Area for cell type $_OR_ is unknown!
+   Area for cell type $_XNOR_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+
+=== latch ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+       69        - wires
+      131        - wire bits
+        5        - public wires
+       67        - public wire bits
+        5        - ports
+       67        - port bits
+       96   218.88 cells
+       64        -   $_MUX_
+       32   218.88   DFQD1HVT
+
+   Area for cell type $_MUX_ is unknown!
+
+   Chip area for module '\latch': 218.880000
+     of which used for sequential elements: 218.880000 (100.00%)
+
+=== alu ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+       21        - wires
+      211        - wire bits
+       15        - public wires
+      205        - public wire bits
+       11        - ports
+      139        - port bits
+        6        - cells
+        2        -   $_AND_
+        1        -   $_NAND_
+        1        -   $_NOR_
+        1        -   $_NOT_
+        1        -   $_OR_
+        3        - submodules
+        1        -   alu_internal
+        2        -   latch
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_DLATCH_NP0_ is unknown!
+   Area for cell type $_DLATCH_N_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_ORNOT_ is unknown!
+   Area for cell type $_OR_ is unknown!
+   Area for cell type $_XNOR_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+
+   Chip area for module '\alu': 0.000000
+     of which used for sequential elements: 0.000000 (-nan%)
+
+=== address_decoder ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+       94        - wires
+      373        - wire bits
+       15        - public wires
+      294        - public wire bits
+       15        - ports
+      294        - port bits
+      225        - cells
+      120        -   $_AND_
+       96        -   $_NAND_
+        8        -   $_NOR_
+        1        -   $_OR_
+
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_OR_ is unknown!
+
+=== reset_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        4        - wires
+        4        - wire bits
+        4        - public wires
+        4        - public wire bits
+        3        - ports
+        3        - port bits
+        2    15.84 cells
+        2    15.84   DFCNQD1HVT
+
+   Chip area for module '\reset_sync': 15.840000
+     of which used for sequential elements: 15.840000 (100.00%)
+
+=== PC ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+       39        - wires
+      101        - wire bits
+        5        - public wires
+       67        - public wire bits
+        5        - ports
+       67        - port bits
+       66   299.52 cells
+       32        -   $_MUX_
+        1        -   $_NOR_
+        1        -   $_ORNOT_
+       32   299.52   EDFQD1HVT
+
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_ORNOT_ is unknown!
+
+   Chip area for module '\PC': 299.520000
+     of which used for sequential elements: 299.520000 (100.00%)
+
+=== Multiplier ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+     1233        - wires
+     1555        - wire bits
+       17        - public wires
+      339        - public wire bits
+        9        - ports
+      104        - port bits
+     1421  4467.96 cells
+       24    51.84   AN2D0HVT
+        1     2.52   AN3D0HVT
+        1     2.88   AN4D0HVT
+        4    11.52   AO211D0HVT
+       12    30.24   AO21D0HVT
+       73   210.24   AO22D0HVT
+        3     8.64   AO31D0HVT
+        6    23.76   AO32D0HVT
+        6    15.12   AOI211D0HVT
+       30     64.8   AOI21D0HVT
+        5     14.4   AOI221D0HVT
+        2     5.04   AOI22D0HVT
+       25       63   AOI31D0HVT
+       19    54.72   AOI32D0HVT
+        1     3.24   AOI33D0HVT
+      232   250.56   CKND0HVT
+      130    187.2   CKND2D0HVT
+       35      126   CKXOR2D0HVT
+      204  1615.68   DFCNQD1HVT
+        1     8.28   DFSNQD1HVT
+        1     4.68   FCICIND1HVT
+        1     9.36   HCOSCOND1HVT
+        6    15.12   IAO21D0HVT
+        1      3.6   IIND4D0HVT
+       36    77.76   IND2D0HVT
+       11    27.72   IND3D0HVT
+        1     2.88   IND4D0HVT
+       22    47.52   INR2D0HVT
+        2     5.04   INR3D0HVT
+        3     7.56   IOA21D0HVT
+        4    11.52   MAOI222D0HVT
+        8    23.04   MAOI22D0HVT
+       20     57.6   MOAI22D0HVT
+       52   168.48   MUX2D0HVT
+       11    31.68   MUX2ND0HVT
+       37   213.12   MUX3D0HVT
+        2     4.32   ND3D0HVT
+        3     7.56   ND4D0HVT
+       98   141.12   NR2D0HVT
+       12    25.92   NR3D0HVT
+        9    22.68   NR4D0HVT
+        4    11.52   OA211D0HVT
+       15     37.8   OA21D0HVT
+        5     14.4   OA31D0HVT
+        8    20.16   OAI211D0HVT
+       65    140.4   OAI21D0HVT
+        1     2.88   OAI221D0HVT
+        8    20.16   OAI22D0HVT
+       20     50.4   OAI31D0HVT
+        1     2.88   OAI32D0HVT
+       25       54   OR2D0HVT
+        6    15.12   OR3D0HVT
+       14    40.32   OR4D0HVT
+       72    259.2   XNR2D0HVT
+       14    85.68   XNR3D0HVT
+        9    55.08   XOR3D0HVT
+
+   Chip area for module '\Multiplier': 4467.960000
+     of which used for sequential elements: 1623.960000 (36.35%)
+
+=== hazard ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+      139        - wires
+      169        - wire bits
+       19        - public wires
+       49        - public wire bits
+       19        - ports
+       49        - port bits
+      125        - cells
+        4        -   $_ANDNOT_
+       59        -   $_AND_
+        6        -   $_NAND_
+        6        -   $_NOR_
+       38        -   $_ORNOT_
+        1        -   $_OR_
+       11        -   $_XNOR_
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_ORNOT_ is unknown!
+   Area for cell type $_OR_ is unknown!
+   Area for cell type $_XNOR_ is unknown!
+
+=== FP_Mult ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+      477        - wires
+      823        - wire bits
+       31        - public wires
+      352        - public wire bits
+        8        - ports
+      101        - port bits
+      740  3666.24 cells
+       28    60.48   AN2D0HVT
+        3     7.56   AN3D0HVT
+        2     5.76   AN4D0HVT
+        5     12.6   AO21D0HVT
+       32    92.16   AO22D0HVT
+        3     8.64   AO31D0HVT
+        3     7.56   AOI211D0HVT
+       22    47.52   AOI21D0HVT
+        2     5.76   AOI221D0HVT
+        8    20.16   AOI22D0HVT
+        6    15.12   AOI31D0HVT
+        1     2.88   AOI32D0HVT
+        9     9.72   CKND0HVT
+       46    66.24   CKND2D0HVT
+       10       36   CKXOR2D0HVT
+       42   287.28   DFQD1HVT
+      239  2237.04   EDFQD1HVT
+        2     9.36   FCICIND1HVT
+        3     7.56   IAO21D0HVT
+        5     10.8   IND2D0HVT
+       22    47.52   INR2D0HVT
+        1     2.52   INR3D0HVT
+        4    11.52   MAOI222D0HVT
+        1     2.88   MOAI22D0HVT
+       24    77.76   MUX2D0HVT
+       21    60.48   MUX2ND0HVT
+        5     10.8   ND3D0HVT
+        7    17.64   ND4D0HVT
+       51    73.44   NR2D0HVT
+        6    12.96   NR3D0HVT
+       22    55.44   NR4D0HVT
+        4    11.52   OA211D0HVT
+        3     7.56   OA21D0HVT
+        6    15.12   OAI211D0HVT
+       29    62.64   OAI21D0HVT
+        6    15.12   OAI22D0HVT
+        6    15.12   OAI31D0HVT
+       13    37.44   OAI32D0HVT
+        6    12.96   OR2D0HVT
+       12     43.2   XNR2D0HVT
+       15     91.8   XNR3D0HVT
+        5     30.6   XOR3D0HVT
+
+   Chip area for module '\FP_Mult': 3666.240000
+     of which used for sequential elements: 2524.320000 (68.85%)
+
+=== FP_Adder ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+      772        - wires
+     1083        - wire bits
+       32        - public wires
+      343        - public wire bits
+        8        - ports
+      101        - port bits
+      987  4026.96 cells
+       15     32.4   AN2D0HVT
+        3     7.56   AN3D0HVT
+        2     5.76   AN4D0HVT
+        2     5.76   AO211D0HVT
+       10     25.2   AO21D0HVT
+        4     14.4   AO221D0HVT
+       10     43.2   AO222D0HVT
+       14    40.32   AO22D0HVT
+        7    20.16   AO31D0HVT
+        3     7.56   AOI211D0HVT
+       18    38.88   AOI21D0HVT
+        3     8.64   AOI221D0HVT
+        1      3.6   AOI222D0HVT
+       15     37.8   AOI22D0HVT
+        7    17.64   AOI31D0HVT
+       49    52.92   CKND0HVT
+       54    77.76   CKND2D0HVT
+       24     86.4   CKXOR2D0HVT
+       44   300.96   DFQD1HVT
+      203  1900.08   EDFQD1HVT
+        1     4.68   FCICIND1HVT
+        7    17.64   IAO21D0HVT
+       21    45.36   IND2D0HVT
+        2     5.76   IND4D0HVT
+       17    36.72   INR2D0HVT
+        2     5.04   INR3D0HVT
+        1     2.52   IOA21D0HVT
+       17    48.96   MAOI222D0HVT
+       14    40.32   MOAI22D0HVT
+       23    74.52   MUX2D0HVT
+       99   285.12   MUX2ND0HVT
+        2    11.52   MUX3D0HVT
+        5     10.8   ND3D0HVT
+        5     12.6   ND4D0HVT
+       88   126.72   NR2D0HVT
+       14    30.24   NR3D0HVT
+       17    42.84   NR4D0HVT
+        2     5.76   OA211D0HVT
+        8    20.16   OA21D0HVT
+        1      3.6   OA221D0HVT
+        1     2.88   OA22D0HVT
+        2     5.76   OA31D0HVT
+        8    20.16   OAI211D0HVT
+       36    77.76   OAI21D0HVT
+        7    20.16   OAI221D0HVT
+        1     3.24   OAI222D0HVT
+       18    45.36   OAI22D0HVT
+        6    15.12   OAI31D0HVT
+       17    48.96   OAI32D0HVT
+        6    12.96   OR2D0HVT
+        3     8.64   OR4D0HVT
+       34    122.4   XNR2D0HVT
+       10     61.2   XNR3D0HVT
+        4    24.48   XOR3D0HVT
+
+   Chip area for module '\FP_Adder': 4026.960000
+     of which used for sequential elements: 2201.040000 (54.66%)
+
+=== M7 ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        4        - wires
+       97        - wire bits
+        4        - public wires
+       97        - public wire bits
+        4        - ports
+       97        - port bits
+       32        - cells
+       32        -   $_MUX_
+
+   Area for cell type $_MUX_ is unknown!
+
+=== M6 ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        4        - wires
+       97        - wire bits
+        4        - public wires
+       97        - public wire bits
+        4        - ports
+       97        - port bits
+       32        - cells
+       32        -   $_MUX_
+
+   Area for cell type $_MUX_ is unknown!
+
+=== M5 ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+      138        - wires
+      294        - wire bits
+        5        - public wires
+      130        - public wire bits
+        5        - ports
+      130        - port bits
+      196        - cells
+        2        -   $_ANDNOT_
+       33        -   $_AND_
+       32        -   $_DLATCH_N_
+      128        -   $_NAND_
+        1        -   $_NOR_
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_DLATCH_N_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+
+=== M4 ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+      202        - wires
+      358        - wire bits
+        6        - public wires
+      162        - public wire bits
+        6        - ports
+      162        - port bits
+      228        - cells
+        2        -   $_ANDNOT_
+       65        -   $_AND_
+      160        -   $_NAND_
+        1        -   $_NOR_
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+
+=== M3 ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+      405        - wires
+      655        - wire bits
+        9        - public wires
+      259        - public wire bits
+        9        - ports
+      259        - port bits
+      428        - cells
+        6        -   $_ANDNOT_
+      164        -   $_AND_
+      256        -   $_NAND_
+        1        -   $_NOR_
+        1        -   $_OR_
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_OR_ is unknown!
+
+=== M2 ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        4        - wires
+       97        - wire bits
+        4        - public wires
+       97        - public wire bits
+        4        - ports
+       97        - port bits
+       32        - cells
+       32        -   $_MUX_
+
+   Area for cell type $_MUX_ is unknown!
+
+=== M1 ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        4        - wires
+       37        - wire bits
+        4        - public wires
+       37        - public wire bits
+        4        - ports
+       37        - port bits
+       12        - cells
+       12        -   $_MUX_
+
+   Area for cell type $_MUX_ is unknown!
+
+=== CSR ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+     1072        - wires
+     1561        - wire bits
+       28        - public wires
+      517        - public wire bits
+       15        - ports
+      150        - port bits
+     1412  1860.48 cells
+        9        -   $_ANDNOT_
+      244        -   $_AND_
+      578        -   $_MUX_
+      228        -   $_NAND_
+        5        -   $_NOR_
+        3        -   $_NOT_
+        4        -   $_ORNOT_
+        7        -   $_OR_
+        2        -   $_XNOR_
+       60        -   $_XOR_
+      272  1860.48   DFQD1HVT
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_ORNOT_ is unknown!
+   Area for cell type $_OR_ is unknown!
+   Area for cell type $_XNOR_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+
+   Chip area for module '\CSR': 1860.480000
+     of which used for sequential elements: 1860.480000 (100.00%)
+
+=== design hierarchy ===
+
+        +----------Count including submodules.
+        |        +-Area including submodules.
+        |        | 
+    69643 1.46E+05 soc_top
+      225        - address_decoder
+      363   711.36 apb
+      162   594.72 apb_cdc_bridge
+      146   578.16   $paramod\handshake_bridge\WIDTH=s32'00000000000000000000000000100000
+      278  1100.88   $paramod\handshake_bridge\WIDTH=s32'00000000000000000000000001000001
+    35953 7.67E+04 data_mem
+        3     7.92 derive_clk_gpio
+        9    23.76 derive_clk_spi
+     1317  1405.08 gpio
+     3481  9584.64 instr_mem
+       17    27.36 interrupt_arbiter
+        2    15.84 reset_sync
+       53   329.04 riscv_top
+      146   578.16   $paramod\handshake_bridge\WIDTH=s32'00000000000000000000000000100000
+      274  1085.04   $paramod\handshake_bridge\WIDTH=s32'00000000000000000000000001000000
+      286  1132.56   $paramod\handshake_bridge\WIDTH=s32'00000000000000000000000001000011
+      530   2098.8   $paramod\handshake_bridge\WIDTH=s32'00000000000000000000000010000000
+     1412  1860.48   CSR
+      987  4026.96   FP_Adder
+      740  3666.24   FP_Mult
+       12        -   M1
+       32        -   M2
+      428        -   M3
+      228        -   M4
+      196        -   M5
+       32        -   M6
+       32        -   M7
+     1421  4467.96   Multiplier
+       66   299.52   PC
+        6        -   alu
+     1746        -     alu_internal
+       96   218.88     latch
+        8    23.76   clk_div_fft
+       11    31.68   clk_fp_divider
+     1201   1652.4   controller
+       20    47.52   derive_clk_mu1_div
+      966  3545.64   divider
+      154   1285.2   fft_top
+     3084  5342.76     fft8
+      125        -   hazard
+      394        -   mux8_1
+      741  1913.76   pipeline_reg1
+      393    889.2   pipeline_reg2
+      194   437.76   pipeline_reg3
+     8529  9285.12   register_file
+        2    15.84   reset_sync
+      475   1699.2 spi
+       13        -   ADD_DECO
+       68    87.12   BAUD_GEN
+       41    63.36   EDGE_COUNTER_16
+        5        -   PHASE_POLARITY
+       85    90.36   USR
+
+        +----------Count including submodules.
+        |        +-Area including submodules.
+        |        | 
+    54516        - wires
+    80929        - wire bits
+     1711        - public wires
+    27540        - public wire bits
+      764        - ports
+     9182        - port bits
+        -        - memories
+        -        - memory bits
+        -        - processes
+    69643 1.46E+05 cells
+      737        -   $_ANDNOT_
+     9104        -   $_AND_
+       63        -   $_DLATCH_NP0_
+       66        -   $_DLATCH_N_
+    17479        -   $_MUX_
+    18836        -   $_NAND_
+      544        -   $_NOR_
+      289        -   $_NOT_
+     1218        -   $_ORNOT_
+     1319        -   $_OR_
+      539        -   $_XNOR_
+      484        -   $_XOR_
+       71   153.36   AN2D0HVT
+       11    27.72   AN3D0HVT
+        9    25.92   AN4D0HVT
+        7    20.16   AO211D0HVT
+       81   204.12   AO21D0HVT
+        4     14.4   AO221D0HVT
+       10     43.2   AO222D0HVT
+      130    374.4   AO22D0HVT
+       15     43.2   AO31D0HVT
+        6    23.76   AO32D0HVT
+       20     50.4   AOI211D0HVT
+      113   244.08   AOI21D0HVT
+       16    46.08   AOI221D0HVT
+       33    118.8   AOI222D0HVT
+       41   103.32   AOI22D0HVT
+       77   194.04   AOI31D0HVT
+       29    83.52   AOI32D0HVT
+        1     3.24   AOI33D0HVT
+      490    529.2   CKND0HVT
+      297   427.68   CKND2D0HVT
+       92    331.2   CKXOR2D0HVT
+     2544 2.01E+04   DFCNQD1HVT
+     1241  8488.44   DFQD1HVT
+       21   173.88   DFSNQD1HVT
+    11524 1.08E+05   EDFQD1HVT
+        4    18.72   FCICIND1HVT
+        1     9.36   HCOSCOND1HVT
+       45    113.4   IAO21D0HVT
+        1      3.6   IIND4D0HVT
+      103   222.48   IND2D0HVT
+       13    32.76   IND3D0HVT
+        4    11.52   IND4D0HVT
+       85    183.6   INR2D0HVT
+        9    22.68   INR3D0HVT
+        3     8.64   INR4D0HVT
+        8    20.16   IOA21D0HVT
+       27    77.76   MAOI222D0HVT
+        9    25.92   MAOI22D0HVT
+       35    100.8   MOAI22D0HVT
+      223   722.52   MUX2D0HVT
+      137   394.56   MUX2ND0HVT
+       39   224.64   MUX3D0HVT
+       32   264.96   MUX4D0HVT
+       16    34.56   ND3D0HVT
+       26    65.52   ND4D0HVT
+      295    424.8   NR2D0HVT
+       42    90.72   NR3D0HVT
+       67   168.84   NR4D0HVT
+       11    31.68   OA211D0HVT
+       62   156.24   OA21D0HVT
+        1      3.6   OA221D0HVT
+        1     2.88   OA22D0HVT
+       18    51.84   OA31D0HVT
+       64   161.28   OAI211D0HVT
+      209   451.44   OAI21D0HVT
+        9    25.92   OAI221D0HVT
+        1     3.24   OAI222D0HVT
+       34    85.68   OAI22D0HVT
+       70    176.4   OAI31D0HVT
+       31    89.28   OAI32D0HVT
+       45     97.2   OR2D0HVT
+        8    20.16   OR3D0HVT
+       42   120.96   OR4D0HVT
+      175      630   XNR2D0HVT
+       56   342.72   XNR3D0HVT
+       21   128.52   XOR3D0HVT
+       15 1.46E+05 submodules
+        1        -   address_decoder
+        1   711.36   apb
+        2  4547.52   apb_cdc_bridge
+        1 7.67E+04   data_mem
+        1     7.92   derive_clk_gpio
+        1    23.76   derive_clk_spi
+        1  1405.08   gpio
+        1  9584.64   instr_mem
+        1    27.36   interrupt_arbiter
+        3   142.56   reset_sync
+        1 5.06E+04   riscv_top
+        1  1940.04   spi
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_DLATCH_NP0_ is unknown!
+   Area for cell type $_DLATCH_N_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_ORNOT_ is unknown!
+   Area for cell type $_OR_ is unknown!
+   Area for cell type $_XNOR_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+
+   Chip area for top module '\soc_top': 145558.800000
+     of which used for sequential elements: 136675.440000 (93.90%)
+

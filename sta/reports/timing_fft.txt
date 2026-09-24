@@ -1,0 +1,96 @@
+Startpoint: u_riscv_top/clk_div_fft/_20_
+            (rising edge-triggered flip-flop clocked by clk_fft)
+Endpoint: u_riscv_top/clk_div_fft/_20_
+          (rising edge-triggered flip-flop clocked by clk_fft)
+Path Group: clk_fft
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk_fft (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ u_riscv_top/clk_div_fft/_20_/CP (DFCNQD1HVT)
+   0.21    0.21 v u_riscv_top/clk_div_fft/_20_/Q (DFCNQD1HVT)
+   0.16    0.37 ^ u_riscv_top/clk_div_fft/_15_/Z (CKXOR2D0HVT)
+   0.00    0.37 ^ u_riscv_top/clk_div_fft/_20_/D (DFCNQD1HVT)
+           0.37   data arrival time
+
+   9.00    9.00   clock clk_fft (rise edge)
+   0.00    9.00   clock network delay (ideal)
+  -0.10    8.90   clock uncertainty
+   0.00    8.90   clock reconvergence pessimism
+           8.90 ^ u_riscv_top/clk_div_fft/_20_/CP (DFCNQD1HVT)
+  -0.06    8.84   library setup time
+           8.84   data required time
+---------------------------------------------------------
+           8.84   data required time
+          -0.37   data arrival time
+---------------------------------------------------------
+           8.48   slack (MET)
+
+
+No paths found.
+Startpoint: u_riscv_top/u_rst_sync_fft/_0_
+            (rising edge-triggered flip-flop clocked by clk_fft_main)
+Endpoint: u_riscv_top/fft/_201_
+          (recovery check against rising-edge clock clk_fft_main)
+Path Group: asynchronous
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk_fft_main (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ u_riscv_top/u_rst_sync_fft/_0_/CP (DFCNQD1HVT)
+   2.64    2.64 ^ u_riscv_top/u_rst_sync_fft/_0_/Q (DFCNQD1HVT)
+   3.42    6.07 v u_riscv_top/_411_/ZN (CKND0HVT)
+   0.35    6.42 ^ u_riscv_top/fft/_065_/ZN (CKND0HVT)
+   0.00    6.42 ^ u_riscv_top/fft/_201_/SDN (DFSNQD1HVT)
+           6.42   data arrival time
+
+  36.00   36.00   clock clk_fft_main (rise edge)
+   0.00   36.00   clock network delay (ideal)
+  -0.10   35.90   clock uncertainty
+   0.00   35.90   clock reconvergence pessimism
+          35.90 ^ u_riscv_top/fft/_201_/CP (DFSNQD1HVT)
+  -0.05   35.85   library recovery time
+          35.85   data required time
+---------------------------------------------------------
+          35.85   data required time
+          -6.42   data arrival time
+---------------------------------------------------------
+          29.43   slack (MET)
+
+
+Startpoint: u_riscv_top/u_rst_sync_fft/_0_
+            (rising edge-triggered flip-flop clocked by clk_fft_main)
+Endpoint: u_riscv_top/fft/_070_
+          (rising edge-triggered flip-flop clocked by clk_fft_main)
+Path Group: clk_fft_main
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk_fft_main (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ u_riscv_top/u_rst_sync_fft/_0_/CP (DFCNQD1HVT)
+   2.64    2.64 ^ u_riscv_top/u_rst_sync_fft/_0_/Q (DFCNQD1HVT)
+   3.42    6.07 v u_riscv_top/_411_/ZN (CKND0HVT)
+   6.04   12.11 ^ u_riscv_top/fft/_061_/ZN (NR2D0HVT)
+   0.00   12.11 ^ u_riscv_top/fft/_070_/E (EDFQD1HVT)
+          12.11   data arrival time
+
+  36.00   36.00   clock clk_fft_main (rise edge)
+   0.00   36.00   clock network delay (ideal)
+  -0.10   35.90   clock uncertainty
+   0.00   35.90   clock reconvergence pessimism
+          35.90 ^ u_riscv_top/fft/_070_/CP (EDFQD1HVT)
+  -2.07   33.83   library setup time
+          33.83   data required time
+---------------------------------------------------------
+          33.83   data required time
+         -12.11   data arrival time
+---------------------------------------------------------
+          21.72   slack (MET)
+
+

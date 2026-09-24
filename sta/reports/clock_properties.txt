@@ -1,0 +1,15 @@
+Clock                   Period          Waveform
+----------------------------------------------------
+clk                      50.00        0.00     25.00
+clk_md                   12.00        0.00      6.00
+clk_fft                   9.00        0.00      4.50
+clk_spi                   6.00        0.00      3.00
+clk_fp                   10.00        0.00      5.00
+clk_md_mul               36.00        0.00     18.00 (generated)
+clk_md_div               72.00        0.00     36.00 (generated)
+clk_fft_core              9.00        0.00      4.50 (generated)
+clk_fft_main             36.00        0.00     18.00 (generated)
+clk_fp_add               20.00        0.00     10.00 (generated)
+clk_fp_mul               40.00        0.00     20.00 (generated)
+clk_spi_div              18.00        0.00      9.00 (generated)
+clk_gpio                100.00        0.00     50.00 (generated)

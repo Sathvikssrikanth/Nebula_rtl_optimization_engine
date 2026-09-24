@@ -1,0 +1,224 @@
+Startpoint: u_riscv_top/u_rst_sync_core/_0_
+            (rising edge-triggered flip-flop clocked by clk)
+Endpoint: u_riscv_top/u_bridge_core_to_fp_add/_606_
+          (recovery check against rising-edge clock clk)
+Path Group: asynchronous
+Path Type: max
+Corner: wc
+
+    Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------
+                   0.00    0.00   clock clk (rise edge)
+                   0.49    0.49   clock network delay (propagated)
+           0.08    0.00    0.49 ^ u_riscv_top/u_rst_sync_core/_0_/CP (DFCNQD1HVT)
+   1.13   11.92    6.65    7.15 ^ u_riscv_top/u_rst_sync_core/_0_/Q (DFCNQD1HVT)
+          11.92    0.00    7.15 ^ u_riscv_top/u_bridge_core_to_fp_add/_606_/CDN (DFCNQD1HVT)
+                           7.15   data arrival time
+
+                  50.00   50.00   clock clk (rise edge)
+                   0.47   50.47   clock network delay (propagated)
+                  -0.10   50.37   clock uncertainty
+                   0.00   50.37   clock reconvergence pessimism
+                          50.37 ^ u_riscv_top/u_bridge_core_to_fp_add/_606_/CP (DFCNQD1HVT)
+                  -3.71   46.66   library recovery time
+                          46.66   data required time
+-----------------------------------------------------------------------
+                          46.66   data required time
+                          -7.15   data arrival time
+-----------------------------------------------------------------------
+                          39.51   slack (MET)
+
+
+Startpoint: u_riscv_top/pipeline_reg2/_1171_
+            (rising edge-triggered flip-flop clocked by clk)
+Endpoint: u_riscv_top/pipeline_register3/_705_
+          (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+Corner: wc
+
+    Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------
+                   0.00    0.00   clock clk (rise edge)
+                   0.55    0.55   clock network delay (propagated)
+           0.18    0.00    0.55 ^ u_riscv_top/pipeline_reg2/_1171_/CP (DFQD1HVT)
+   0.00    0.04    0.26    0.81 v u_riscv_top/pipeline_reg2/_1171_/Q (DFQD1HVT)
+           0.04    0.00    0.81 v u_address_decoder/_416_/A3 (NR4D0HVT)
+   0.00    0.11    0.12    0.92 ^ u_address_decoder/_416_/ZN (NR4D0HVT)
+           0.11    0.00    0.92 ^ u_address_decoder/_418_/A3 (AN4D0HVT)
+   0.09    1.82    1.18    2.11 ^ u_address_decoder/_418_/Z (AN4D0HVT)
+           1.82    0.00    2.11 ^ u_address_decoder/_434_/A2 (AN2D0HVT)
+   0.65   13.37    7.66    9.77 ^ u_address_decoder/_434_/Z (AN2D0HVT)
+          13.37    0.00    9.77 ^ u_data_mem/_50342_/B2 (INR3D0HVT)
+   0.65    7.55   32.73   42.50 v u_data_mem/_50342_/ZN (INR3D0HVT)
+           7.55    0.00   42.50 v u_data_mem/_50804_/A2 (AO222D0HVT)
+   0.00    0.34    2.32   44.81 v u_data_mem/_50804_/Z (AO222D0HVT)
+           0.34    0.00   44.81 v u_data_mem/_50805_/A3 (OA31D0HVT)
+   0.00    0.08    0.26   45.07 v u_data_mem/_50805_/Z (OA31D0HVT)
+           0.08    0.00   45.07 v u_data_mem/_50807_/A4 (OR4D0HVT)
+   0.00    0.07    0.22   45.29 v u_data_mem/_50807_/Z (OR4D0HVT)
+           0.07    0.00   45.29 v u_data_mem/_50808_/A4 (NR4D0HVT)
+   0.00    0.17    0.13   45.42 ^ u_data_mem/_50808_/ZN (NR4D0HVT)
+           0.17    0.00   45.42 ^ u_data_mem/_50809_/B1 (OAI22D0HVT)
+   0.00    0.17    0.11   45.53 v u_data_mem/_50809_/ZN (OAI22D0HVT)
+           0.17    0.00   45.53 v u_data_mem/_50888_/A1 (OA31D0HVT)
+   0.00    0.07    0.23   45.77 v u_data_mem/_50888_/Z (OA31D0HVT)
+           0.07    0.00   45.77 v u_address_decoder/_468_/B2 (AO22D0HVT)
+   0.00    0.07    0.16   45.93 v u_address_decoder/_468_/Z (AO22D0HVT)
+           0.07    0.00   45.93 v u_riscv_top/mux5/_269_/C1 (AO222D0HVT)
+   0.00    0.07    0.27   46.20 v u_riscv_top/mux5/_269_/Z (AO222D0HVT)
+           0.07    0.00   46.20 v u_riscv_top/pipeline_register3/_643_/B (OA21D0HVT)
+   0.00    0.30    0.10   46.30 v u_riscv_top/pipeline_register3/_643_/Z (OA21D0HVT)
+           0.30    0.00   46.30 v u_riscv_top/pipeline_register3/_644_/A2 (IAO21D0HVT)
+   0.00    0.08    0.19   46.49 v u_riscv_top/pipeline_register3/_644_/ZN (IAO21D0HVT)
+           0.08    0.00   46.49 v u_riscv_top/pipeline_register3/_705_/D (DFQD1HVT)
+                          46.49   data arrival time
+
+                  50.00   50.00   clock clk (rise edge)
+                   0.50   50.50   clock network delay (propagated)
+                  -0.10   50.40   clock uncertainty
+                   0.00   50.40   clock reconvergence pessimism
+                          50.40 ^ u_riscv_top/pipeline_register3/_705_/CP (DFQD1HVT)
+                   0.01   50.41   library setup time
+                          50.41   data required time
+-----------------------------------------------------------------------
+                          50.41   data required time
+                         -46.49   data arrival time
+-----------------------------------------------------------------------
+                           3.92   slack (MET)
+
+
+Startpoint: u_riscv_top/fft/fft_core/_7023_
+            (rising edge-triggered flip-flop clocked by clk_fft)
+Endpoint: u_riscv_top/fft/fft_core/_6718_
+          (rising edge-triggered flip-flop clocked by clk_fft)
+Path Group: clk_fft
+Path Type: max
+Corner: wc
+
+    Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------
+                   0.00    0.00   clock clk_fft (rise edge)
+                   0.31    0.31   clock network delay (propagated)
+           0.10    0.00    0.31 ^ u_riscv_top/fft/fft_core/_7023_/CP (DFQD1HVT)
+   0.00    0.03    0.19    0.50 ^ u_riscv_top/fft/fft_core/_7023_/Q (DFQD1HVT)
+           0.03    0.00    0.50 ^ u_riscv_top/fft/fft_core/_6159_/A2 (CKND2D0HVT)
+   0.00    0.06    0.05    0.55 v u_riscv_top/fft/fft_core/_6159_/ZN (CKND2D0HVT)
+           0.06    0.00    0.55 v u_riscv_top/fft/fft_core/_6160_/A2 (NR2D0HVT)
+   0.19    8.14    4.65    5.20 ^ u_riscv_top/fft/fft_core/_6160_/ZN (NR2D0HVT)
+           8.14    0.00    5.20 ^ u_riscv_top/fft/fft_core/_6718_/E (EDFQD1HVT)
+                           5.20   data arrival time
+
+                   6.00    6.00   clock clk_fft (rise edge)
+                   0.31    6.31   clock network delay (propagated)
+                  -0.10    6.21   clock uncertainty
+                   0.00    6.21   clock reconvergence pessimism
+                           6.21 ^ u_riscv_top/fft/fft_core/_6718_/CP (EDFQD1HVT)
+                  -1.97    4.24   library setup time
+                           4.24   data required time
+-----------------------------------------------------------------------
+                           4.24   data required time
+                          -5.20   data arrival time
+-----------------------------------------------------------------------
+                          -0.96   slack (VIOLATED)
+
+
+Startpoint: u_riscv_top/clk_fp_divider/_28_
+            (rising edge-triggered flip-flop clocked by clk_fp)
+Endpoint: u_riscv_top/clk_fp_divider/_28_
+          (rising edge-triggered flip-flop clocked by clk_fp)
+Path Group: clk_fp
+Path Type: max
+Corner: wc
+
+    Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------
+                   0.00    0.00   clock clk_fp (rise edge)
+                   0.10    0.10   clock network delay (propagated)
+           0.03    0.00    0.10 ^ u_riscv_top/clk_fp_divider/_28_/CP (DFCNQD1HVT)
+   0.25    2.61    1.60    1.70 ^ u_riscv_top/clk_fp_divider/_28_/Q (DFCNQD1HVT)
+           2.61    0.00    1.70 ^ u_riscv_top/clk_fp_divider/_19_/I (CKND0HVT)
+   0.00    0.46    0.37    2.07 v u_riscv_top/clk_fp_divider/_19_/ZN (CKND0HVT)
+           0.46    0.00    2.07 v u_riscv_top/clk_fp_divider/_28_/D (DFCNQD1HVT)
+                           2.07   data arrival time
+
+                   4.00    4.00   clock clk_fp (rise edge)
+                   0.10    4.10   clock network delay (propagated)
+                  -0.10    4.00   clock uncertainty
+                   0.00    4.00   clock reconvergence pessimism
+                           4.00 ^ u_riscv_top/clk_fp_divider/_28_/CP (DFCNQD1HVT)
+                  -0.10    3.90   library setup time
+                           3.90   data required time
+-----------------------------------------------------------------------
+                           3.90   data required time
+                          -2.07   data arrival time
+-----------------------------------------------------------------------
+                           1.83   slack (MET)
+
+
+Startpoint: u_riscv_top/derive_clk_mu1_div/_42_
+            (rising edge-triggered flip-flop clocked by clk_md)
+Endpoint: u_riscv_top/derive_clk_mu1_div/_42_
+          (rising edge-triggered flip-flop clocked by clk_md)
+Path Group: clk_md
+Path Type: max
+Corner: wc
+
+    Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------
+                   0.00    0.00   clock clk_md (rise edge)
+                   0.11    0.11   clock network delay (propagated)
+           0.04    0.00    0.11 ^ u_riscv_top/derive_clk_mu1_div/_42_/CP (DFCNQD1HVT)
+   0.20    2.12    1.34    1.44 ^ u_riscv_top/derive_clk_mu1_div/_42_/Q (DFCNQD1HVT)
+           2.12    0.00    1.44 ^ u_riscv_top/derive_clk_mu1_div/_32_/A (HCOSCIND1HVT)
+   0.00    0.08    0.59    2.04 v u_riscv_top/derive_clk_mu1_div/_32_/S (HCOSCIND1HVT)
+           0.08    0.00    2.04 v u_riscv_top/derive_clk_mu1_div/_42_/D (DFCNQD1HVT)
+                           2.04   data arrival time
+
+                   3.66    3.66   clock clk_md (rise edge)
+                   0.11    3.77   clock network delay (propagated)
+                  -0.10    3.67   clock uncertainty
+                   0.00    3.67   clock reconvergence pessimism
+                           3.67 ^ u_riscv_top/derive_clk_mu1_div/_42_/CP (DFCNQD1HVT)
+                  -0.01    3.65   library setup time
+                           3.65   data required time
+-----------------------------------------------------------------------
+                           3.65   data required time
+                          -2.04   data arrival time
+-----------------------------------------------------------------------
+                           1.61   slack (MET)
+
+
+Startpoint: u_derive_clk_spi/_20_
+            (rising edge-triggered flip-flop clocked by clk_spi)
+Endpoint: u_derive_clk_spi/_21_
+          (rising edge-triggered flip-flop clocked by clk_spi)
+Path Group: clk_spi
+Path Type: max
+Corner: wc
+
+    Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------
+                   0.00    0.00   clock clk_spi (rise edge)
+                   0.10    0.10   clock network delay (propagated)
+           0.03    0.00    0.10 ^ u_derive_clk_spi/_20_/CP (DFCNQD1HVT)
+   0.00    0.04    0.20    0.31 ^ u_derive_clk_spi/_20_/Q (DFCNQD1HVT)
+           0.04    0.00    0.31 ^ u_derive_clk_spi/_16_/A1 (INR2D0HVT)
+   0.00    0.09    0.10    0.40 ^ u_derive_clk_spi/_16_/ZN (INR2D0HVT)
+           0.09    0.00    0.40 ^ u_derive_clk_spi/_21_/D (DFCNQD1HVT)
+                           0.40   data arrival time
+
+                   1.00    1.00   clock clk_spi (rise edge)
+                   0.10    1.10   clock network delay (propagated)
+                  -0.10    1.00   clock uncertainty
+                   0.00    1.00   clock reconvergence pessimism
+                           1.00 ^ u_derive_clk_spi/_21_/CP (DFCNQD1HVT)
+                  -0.06    0.95   library setup time
+                           0.95   data required time
+-----------------------------------------------------------------------
+                           0.95   data required time
+                          -0.40   data arrival time
+-----------------------------------------------------------------------
+                           0.54   slack (MET)
+
+

@@ -1,0 +1,15 @@
+violation type: Metal Spacing
+	srcs: net:u_riscv_top/register_file/_08049_ net:u_riscv_top/register_file/_08099_
+	bbox = (478.8500, 38.2500) - (478.9500, 38.3100) on Layer M2
+violation type: Metal Spacing
+	srcs: net:A2_sim[1] net:VSS
+	bbox = (480.8500, 36.1000) - (480.9500, 36.1700) on Layer M2
+violation type: Metal Spacing
+	srcs: net:u_riscv_top/register_file/regfile\[18\][7] net:u_riscv_top/register_file/regfile\[22\][7]
+	bbox = (496.0200, 248.7500) - (496.0500, 248.8500) on Layer M3
+violation type: Short
+	srcs: net:A2_sim[1] net:u_riscv_top/register_file/_08717_
+	bbox = (480.8500, 36.3500) - (480.9500, 36.4500) on Layer M2
+violation type: Short
+	srcs: net:u_riscv_top/register_file/_08901_ net:u_riscv_top/register_file/regfile\[8\][29]
+	bbox = (480.6500, 37.9500) - (480.7500, 38.0500) on Layer M3

@@ -1,0 +1,6 @@
+read_verilog gen_ai_output/adder_modified.v
+prep -top adder
+opt_clean
+check -initdrv
+setundef -undriven -undef
+write_rtlil formal/gate.il

@@ -1,0 +1,6 @@
+EQY  1:34:29 [formal] read_gold: starting process "yosys -ql formal/gold.log formal/gold.ys"
+EQY  1:34:29 [formal] read_gold: finished (returncode=0)
+EQY  1:34:29 [formal] read_gate: starting process "yosys -ql formal/gate.log formal/gate.ys"
+EQY  1:34:29 [formal] read_gate: ERROR: File `gen_ai_output/adder_modified.v' not found or is a directory
+EQY  1:34:29 [formal] read_gate: finished (returncode=1)
+EQY  1:34:29 [formal] read_gate: job failed. ERROR.

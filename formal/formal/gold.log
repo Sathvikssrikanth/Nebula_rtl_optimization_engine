@@ -1,0 +1,179 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2026  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.67+153 (git sha1 d5f179524-dirty, Release, Clang /usr/bin/clang++ 21.1.8)
+
+-- Executing script file `formal/gold.ys' --
+
+1. Executing Verilog-2005 frontend: ../verilog/adder.v
+Parsing Verilog input from `../verilog/adder.v' to AST representation.
+Generating RTLIL representation for module `\adder'.
+Successfully finished Verilog frontend.
+
+2. Executing PREP pass.
+
+2.1. Executing HIERARCHY pass (managing design hierarchy).
+
+2.1.1. Analyzing design hierarchy..
+Top module:  \adder
+
+2.1.2. Analyzing design hierarchy..
+Top module:  \adder
+Removed 0 unused modules.
+
+2.2. Executing PROC pass (convert processes to netlists).
+
+2.2.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+2.2.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Marked 1 switch rules as full_case in process $proc$../verilog/adder.v:8$1 in module adder.
+Removed a total of 0 dead cases.
+
+2.2.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 1 redundant assignment.
+Promoted 0 assignments to connections.
+
+2.2.4. Executing PROC_INIT pass (extract init attributes).
+
+2.2.5. Executing PROC_ARST pass (detect async resets in processes).
+
+2.2.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+<suppressed ~1 debug messages>
+
+2.2.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `\adder.$proc$../verilog/adder.v:8$1'.
+     1/1: $0\sum[8:0]
+
+2.2.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+
+2.2.9. Executing PROC_DFF pass (convert process syncs to FFs).
+Creating register for signal `\adder.\sum' using process `\adder.$proc$../verilog/adder.v:8$1'.
+  created $dff cell `$procdff$6' with positive edge clock.
+
+2.2.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+2.2.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Found and cleaned up 1 empty switch in `\adder.$proc$../verilog/adder.v:8$1'.
+Removing empty process `adder.$proc$../verilog/adder.v:8$1'.
+Cleaned up 1 empty switch.
+
+2.2.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module adder.
+
+2.3. Executing FUTURE pass.
+
+2.4. Executing OPT_EXPR pass (perform const folding).
+Optimizing module adder.
+
+2.5. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \adder..
+Removed 0 unused cells and 2 unused wires.
+<suppressed ~1 debug messages>
+
+2.6. Executing CHECK pass (checking for obvious problems).
+Checking module adder...
+Found and reported 0 problems.
+
+2.7. Executing OPT pass (performing simple optimizations).
+
+2.7.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module adder.
+
+2.7.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\adder'.
+Computing hashes of 3 cells of `\adder'.
+Finding duplicate cells in `\adder'.
+Removed a total of 0 cells.
+
+2.7.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \adder..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~2 debug messages>
+
+2.7.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \adder.
+Performed a total of 0 changes.
+
+2.7.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\adder'.
+Computing hashes of 3 cells of `\adder'.
+Finding duplicate cells in `\adder'.
+Removed a total of 0 cells.
+
+2.7.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \adder..
+
+2.7.7. Executing OPT_EXPR pass (perform const folding).
+Optimizing module adder.
+
+2.7.8. Finished fast OPT passes. (There is nothing left to do.)
+
+2.8. Executing WREDUCE pass (reducing word size of cells).
+
+2.9. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \adder..
+
+2.10. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+2.11. Executing OPT pass (performing simple optimizations).
+
+2.11.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module adder.
+
+2.11.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\adder'.
+Computing hashes of 3 cells of `\adder'.
+Finding duplicate cells in `\adder'.
+Removed a total of 0 cells.
+
+2.11.3. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \adder..
+
+2.11.4. Finished fast OPT passes.
+
+2.12. Executing SORT pass.
+
+2.13. Printing statistics.
+
+=== adder ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        7 wires
+       45 wire bits
+        5 public wires
+       27 public wire bits
+        5 ports
+       27 port bits
+        3 cells
+        1   $add
+        1   $dff
+        1   $mux
+
+2.14. Executing CHECK pass (checking for obvious problems).
+Checking module adder...
+Found and reported 0 problems.
+
+3. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \adder..
+
+4. Executing CHECK pass (checking for obvious problems).
+Checking module adder...
+Found and reported 0 problems.
+
+5. Executing SETUNDEF pass (replace undef values with defined constants).
+
+6. Executing RTLIL backend.
+Output filename: formal/gold.il
+
+End of script. Logfile hash: 029df0e86b, time: 0.02s, user: 0.01s, system: 0.01s, MEM: 16.95 MB peak
+Yosys 0.67+153 (git sha1 d5f179524-dirty, Release, Clang /usr/bin/clang++ 21.1.8)
+Time spent: 18% 3x opt_merge (0 sec), 16% 5x opt_clean (0 sec), ...
