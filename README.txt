@@ -1,7 +1,8 @@
 ================================================================
 NEBULA - GenAI RTL Timing Optimization Framework
-README
 ================================================================
+
+TOOLS: Yosys, OpenSTA, EQY, SimbiYosys, OpenROAD, iverilog
 
 HOW TO RUN
 ----------
